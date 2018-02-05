@@ -1,0 +1,28 @@
+#!/bin/sh
+### BEGIN INIT INFO
+# Provides: aria2c
+# Required-Start:    $network $local_fs $remote_fs
+# Required-Stop:     $network $local_fs $remote_fs
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: aria2c RPC init script.
+# Description: Starts and stops aria2 RPC services.
+### END INIT INFO
+
+USER=root
+RETVAL=0
+
+case "$1" in  
+    start)  
+        echo "Starting service Aria2..."
+        aria2c --conf-path=/etc/aria2/aria2.conf -D  
+        echo "Start service done."  
+    ;;  
+    stop)  
+        echo "Stoping service Aria2..."  
+        killall aria2c   
+        echo "Stop service done."  
+    ;;  
+esac  
+
+exit $RETVAL
