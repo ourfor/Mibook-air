@@ -9,5 +9,5 @@
 更多信息见[小米官网](https://mi.com)
 <!--more-->
 ## Hackintosh安装
-(详见博主[博客](https://ourfor.top))
+(详见博主[博客](https://ourfor.top))    
 [Releases](https://github.com/ourfor/mibook-air/releases)
