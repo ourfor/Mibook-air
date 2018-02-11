@@ -1,4 +1,5 @@
 <img src="http://ozkg680jm.bkt.clouddn.com/mibook.jpg" width=70% height=30%>
+
 # Clover配置文件
 ## 这个仓库用来更新小米笔记本Air i7 7500U(指纹版)clover的配置文件
 # 小米笔记本Air-i7-7500U 详细配置:
