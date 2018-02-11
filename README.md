@@ -23,11 +23,16 @@ list partition   //列出所选硬盘的所有分区
 select partition 0   //根据ESP分区选择
 assign letter=x     //分配盘符  
 ```
-接下来你就可以在Windows的资源管理器里面看到` x `盘，就是我们系统的ESP引导分区，但是在Windows资源管理器中会提示没有权限打开，这时候使用软件` Explorer++ `以管理员身份运行，下载[Releases](https://github.com/ourfor/mibook-air/releases)，移动到ESP分区。            
-[Explorer++](https://explorerplusplus.com/software/explorer++_1.3.5_x64.zip)             
-<img src="http://ozkg680jm.bkt.clouddn.com/Explorer++.PNG" width=70% height=30%>        
-[Bootice](http://www.ipauly.com/wp-content/uploads/2015/11/BOOTICEx64_v1.332.rar)     
-<img src="http://ozkg680jm.bkt.clouddn.com/Bootice.PNG" width=70% height=30%>      
+接下来你就可以在Windows的资源管理器里面看到` x `盘，就是我们系统的ESP引导分区，但是在Windows资源管理器中会提示没有权限打开，这时候使用软件` Explorer++ `以管理员身份运行，下载[Releases](https://github.com/ourfor/mibook-air/releases)，移动到ESP分区。
+
+[Explorer++](https://explorerplusplus.com/software/explorer++_1.3.5_x64.zip) 
+
+<img src="http://ozkg680jm.bkt.clouddn.com/Explorer++.PNG" width=70% height=30%> 
+
+[Bootice](http://www.ipauly.com/wp-content/uploads/2015/11/BOOTICEx64_v1.332.rar)
+
+<img src="http://ozkg680jm.bkt.clouddn.com/Bootice.PNG" width=70% height=30%>
+
 以管理员身份运行Bootice，` UEFI-修改启动序列-添加 `添加四叶草开机引导路径(` X:\EFI\CLOVER\CLOVERX64.efi `) ,上移到第一启动序列.提示选择合并，下次开机就能进入四叶草引导了。  
 ### macOS下  
 ```bash
