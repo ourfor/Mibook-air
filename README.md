@@ -39,4 +39,9 @@ assign letter=x     //分配盘符  
 diskutil list
 diskutil mount disksxsx
 ```
-
+## 注意  
+安装macOS时抹除分区是要求待摸除分区所在磁盘的分区大小大于200m，这只是安装macOS时需要这样，而引导macOS启动时则没有这种要求，所以你可以新建一个ESP引导分区，备份原来ESP分区到镜像文件，再从镜像文件恢复到新建的ESP分区，之后删除原来的ESP分区就行了，安装结束以后你可以按照上述方法恢复原来的ESP分区。  
+用到的工具：  
+-磁盘管理(在Windows资源管理器中右键` 此电脑 `打开` 管理 `右键系统分区` 压缩卷 `)  
+-[DiskGenius](http://download.eassos.cn/DG495508_x64.zip)  
+在DiskGenius中右键压缩出来的分区，新建分区
