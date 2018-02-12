@@ -47,3 +47,6 @@ diskutil mount disksxsx  //diskxsx就是你EFI类型分区的IDENTIFIER
 - [DiskGenius](http://download.eassos.cn/DG495508_x64.zip)  
 
 在DiskGenius中右键压缩出来的分区，新建分区
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+sudo apt-get install google-chrome-stable
