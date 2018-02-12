@@ -8,7 +8,7 @@
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |Intel i7 7500U|Intel HD 620 Nvdia MX150|8G(不可拓展)|Samsung Nvme 256G (预留M.2 Sata接口)|Intel Wireless AC 8265(板载 ) |Realtek alc 255|1920x1080|
 
-更多信息见[小米官网](https://mi.com)
+更多信息见[小米官网](https://www.mi.com)
 <!--more-->
  
 ## 挂载ESP分区并合并EFI  
