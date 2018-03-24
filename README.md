@@ -21,7 +21,7 @@ list partition   //列出所选硬盘的所有分区
 select partition 0   //根据ESP分区选择
 assign letter=x     //分配盘符  
 ```
-接下来你就可以在Windows的资源管理器里面看到` x `盘，就是我们系统的ESP引导分区，但是在Windows资源管理器中会提示没有权限打开，这时候使用软件` Explorer++ `以管理员身份运行，下载[Releases](https://github.com/ourfor/mibook-air/releases)，移动到ESP分区，如果有提示选择合并。
+接下来你就可以在Windows的资源管理器里面看到` x `盘，就是我们系统的ESP引导分区，但是在Windows资源管理器中会提示没有权限打开，这时候使用软件` Explorer++ `以管理员身份运行，下载[Releases](https://github.com/ourfor/mibook-air/releases)，删除EFI文件夹下面的` Windows `和` Ubuntu `这两个文件夹，之后再移动到ESP分区，如果有提示选择合并。
 
 [Explorer++](https://explorerplusplus.com/software/explorer++_1.3.5_x64.zip) 
 
