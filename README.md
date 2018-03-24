@@ -46,6 +46,11 @@ diskutil mount disksxsx  //diskxsx就是你EFI类型分区的IDENTIFIER
 
 在DiskGenius中右键压缩出来的分区，新建分区，选择` 主分区 `，分区类型选择` EFI System Partition `合并EFI文件后，使用` Bootice `添加启动项。 
 
+几点需要说明:
+- nvram.plist放在` ESP `分区用于保存亮度等，这样每次开机就不会出现亮度飙到最大值。
+- EFI文件夹下面的诸如` Windows `、` ubuntu `等文件保存的是这些系统的引导信息，也就是说，再合并EFI分区时请删除这些文件，毕竟磁盘信息不一样，不通用。
+- 最好使用微软账户绑定Windows的数字激活证书（只需在设置中换成微软账户登陆就行），这样做的目的是为了方便某些人重装。当然安装黑果不需要重装，也不会影响Windows。
+- 安装黑果前请确保在你即将安装黑果系统的这块硬盘中的ESP分区大于200m。
 
 ## Hackintosh安装
 (详见博主[博客](https://ourfor.top))    
