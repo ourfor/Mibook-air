@@ -30,7 +30,9 @@
 			<array>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Creative CA0132, default</string>
 					<key>CodecID</key>
@@ -48,7 +50,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Creative CA0132, Alienware 15 R2</string>
 					<key>CodecID</key>
@@ -66,7 +70,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Creative CA0132, 2.0 + front HP</string>
 					<key>CodecID</key>
@@ -84,7 +90,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Creative CA0132, 2.0 + rear line-out</string>
 					<key>CodecID</key>
@@ -102,7 +110,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Creative CA0132, 5.1 with C/Sub</string>
 					<key>CodecID</key>
@@ -121,7 +131,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Creative CA0132, 2.0 front HP + Mic </string>
 					<key>CodecID</key>
@@ -139,7 +151,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Creative CA0132, 5.1 with front HP</string>
 					<key>CodecID</key>
@@ -156,7 +170,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Creative CA0132 by Andres ZeroCross</string>
 					<key>CodecID</key>
@@ -176,7 +192,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Creative CA0132 by Andres ZeroCross</string>
 					<key>CodecID</key>
@@ -193,7 +211,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Custom Creative CA0132 5.1 channel</string>
 					<key>CodecID</key>
@@ -215,7 +235,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Custom Creative CA0132</string>
 					<key>CodecID</key>
@@ -232,7 +254,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>InsanelyDeepak - Cirrus Logic CS4210</string>
 					<key>CodecID</key>
@@ -250,7 +274,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>InsanelyDeepak - Cirrus Logic -CS4213</string>
 					<key>CodecID</key>
@@ -268,7 +294,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>MacPeet - AD1984 - for_IBM_Lenovo_ThinkPad_T61</string>
 					<key>CodecID</key>
@@ -287,7 +315,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>MacPeet - AD1984A</string>
 					<key>CodecID</key>
@@ -305,7 +335,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>MacPeet - AD1984A - Version2</string>
 					<key>CodecID</key>
@@ -323,7 +355,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - ADI-1988B</string>
 					<key>CodecID</key>
@@ -342,7 +376,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - ADI-1988B</string>
 					<key>CodecID</key>
@@ -363,7 +399,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>0x11d4198b</string>
 					<key>CodecID</key>
@@ -386,7 +424,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - ADI-2000B</string>
 					<key>CodecID</key>
@@ -405,7 +445,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - ADI-2000B</string>
 					<key>CodecID</key>
@@ -426,7 +468,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Goldfish64 - ALC221 for HP Compaq Pro 4300/Pro 6300/Elite 8300</string>
 					<key>CodecID</key>
@@ -445,7 +489,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>ALC225/ALC3253 on dell 7579 by ChalesYu</string>
 					<key>CodecID</key>
@@ -468,25 +514,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
-					<string>Custom ALC225/ALC3253 by ChalesYu</string>
-					<key>CodecID</key>
-					<integer>283902501</integer>
-					<key>ConfigData</key>
 					<data>
-					ASccEAEnHQEBJx6mAScfmQG3HCABtx0AAbce
-					FwG3H5kBlxwwAZcdEAGXHoEBlx8CAhccQAIX
-					HRACFx4hAhcfAgG3DAIBRwwCAhcMAg==
+					AwAAAA==
 					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>33</integer>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC233</string>
 					<key>CodecID</key>
@@ -504,7 +534,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Custom Realtek ALC233 (3236)</string>
 					<key>CodecID</key>
@@ -521,7 +553,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC233/ALC3236</string>
 					<key>CodecID</key>
@@ -539,7 +573,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>InsanelyDeepak - Realtek ALC233 for Asus X550LC</string>
 					<key>CodecID</key>
@@ -557,7 +593,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Custom for Realtek ALC233 for SONY VAIO Fit 14E(SVF14316SCW) by SquallATF</string>
 					<key>CodecID</key>
@@ -575,7 +613,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Custom for Realtek ALC3236 for Asus TP500LN by Mohamed Khairy</string>
 					<key>CodecID</key>
@@ -594,7 +634,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Custom by Mirone - Realtek ALC233 (ALC3236) for Asus X550LDV</string>
 					<key>CodecID</key>
@@ -612,7 +654,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC235</string>
 					<key>CodecID</key>
@@ -631,7 +675,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Realtek ALC235 for Ienovo by soto2080</string>
 					<key>CodecID</key>
@@ -652,7 +698,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>vusun123 - Realtek ALC235 for Lenovo Legion Y520</string>
 					<key>CodecID</key>
@@ -670,7 +718,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC236</string>
 					<key>CodecID</key>
@@ -688,7 +738,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Jake Lo - Realtek ALC236</string>
 					<key>CodecID</key>
@@ -710,7 +762,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Custom - Realtek ALC236 for Lenovi Air 13 Pro by rexx0520</string>
 					<key>CodecID</key>
@@ -732,25 +786,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
-					<string>MacPeet - ALC236 for Lenovo Ideapad 500-15ISK</string>
-					<key>CodecID</key>
-					<integer>283902518</integer>
-					<key>ConfigData</key>
 					<data>
-					ASccAAEnHQEBJx6mAScfkAFHHBABRx0BAUce
-					EAFHH5ABRwwCAZccIAGXHRABlx6LAZcfAAIX
-					HDACFx0QAhceKwIXHwACFwwC
+					AwAAAA==
 					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>15</integer>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC255</string>
 					<key>CodecID</key>
@@ -768,7 +806,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>InsanelyDeepak - Realtek ALC255_v1</string>
 					<key>CodecID</key>
@@ -786,7 +826,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>InsanelyDeepak - Realtek ALC255_v2</string>
 					<key>CodecID</key>
@@ -805,27 +847,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
-					<string>DuNe - Realtek ALC255 for Aorus X5V7</string>
-					<key>CodecID</key>
-					<integer>283902549</integer>
-					<key>ConfigData</key>
 					<data>
-					ASccEAEnHQABJx6mAScfkAFHHCABRx0AAUce
-					FwFHH5ABtxwhAbcdAAG3HhcBtx+QAXccMAF3
-					HQABdx4AAXcfQAHXHEAB1x0AAdcecAHXH0AC
-					FxxQAhcdEAIXHiECFx8CAaccYAGnHRABpx6B
-					AacfAgHnHHAB5x0QAeceRQHnHwIBRwwC
+					AwAAAA==
 					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>18</integer>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
 					<key>Codec</key>
 					<string>ALC255 for Asus X556UA m-dudarev</string>
 					<key>CodecID</key>
@@ -843,15 +867,22 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
-					<string>Realtek ALC255 for Lenovo B470 - vusun123</string>
+					<string>Realtek ALC255 for XiaoMi Air DalianSky</string>
 					<key>CodecID</key>
 					<integer>283902549</integer>
 					<key>ConfigData</key>
 					<data>
-					ASccYAEnHQABJx6gAScfkAFHHCABRx0AAUce
-					FwFHH5ABRwwCAhccMAIXHRACFx4hAhcfAQ==
+					AScccAEnHQEBJx6mAScfkAE3HPABNx0AATce
+					AAE3H0ABRxxAAUcdAQFHHhcBRx+QAUcMAgGH
+					HPABhx0AAYceAAGHH0ABlxxwAZcdEAGXHosB
+					lx8CAacc8AGnHQABpx4AAacfQAG3HPABtx0A
+					AbceAAG3H0AB1xzwAdcdAAHXHgAB1x9AAecc
+					8AHnHQAB5x4AAecfQAIXHDACFx0QAhceKwIX
+					HwICFwwC
 					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
@@ -860,38 +891,46 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
-					<string>DalianSky - Realtek ALC255 (3246) for XiaoMi Air</string>
+					<string>DalianSky - Realtek ALC255 XiaoMi Air</string>
 					<key>CodecID</key>
 					<integer>283902549</integer>
 					<key>ConfigData</key>
 					<data>
-					ASccIAEnHQEBJx6mAScfkAE3HPABNx0AATce
-					AAE3H0ABRxxAAUcdAQFHHhcBRx+QAUcMAgF3
-					HPABdx0AAXceAAF3H0ABhxzwAYcdAAGHHgAB
-					hx9AAZccEAGXHRABlx6LAZcfAgGnHPABpx0A
-					AaceAAGnH0ABtxzwAbcdAAG3HgABtx9AAdcc
-					8AHXHQAB1x4AAdcfQAHnHPAB5x0AAeceAAHn
-					H0ACFxwwAhcdEAIXHisCFx8CAhcMAg==
+					AScccAEnHQEBJx6mAScfkAE3HPABNx0AATce
+					AAE3H0ABRxxAAUcdAQFHHhcBRx+QAUcMAgGH
+					HPABhx0AAYceAAGHH0ABlxxwAZcdEAGXHoEB
+					lx8CAacc8AGnHQABpx4AAacfQAG3HPABtx0A
+					AbceAAG3H0AB1xzwAdcdAAHXHgAB1x9AAecc
+					8AHnHQAB5x4AAecfQAIXHDACFx0QAhceIQIX
+					HwICFwwC
 					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
-					<integer>99</integer>
+					<integer>55</integer>
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Insanelydeepak - Realtek ALC256 (3246) for Dell Series</string>
 					<key>CodecID</key>
 					<integer>283902550</integer>
 					<key>ConfigData</key>
 					<data>
-					ASccEAEnHQABJx6mAScfkAFHHCABRx0AAUce
-					FwFHH5ABlxwwAZcdEAGXHosBlx8CAhccUAIX
-					HRACFx4rAhcfAgFHDAI=
+					AScccAEnHQEBJx6mAScfkAE3HPABNx0AATce
+					AAE3H0ABRxxAAUcdAQFHHhcBRx+QAUcMAgGH
+					HPABhx0AAYceAAGHH0ABlxxwAZcdEAGXHqsB
+					lx8CAacc8AGnHQABpx4AAacfQAG3HPABtx0A
+					AbceAAG3H0AB1xzwAdcdAAHXHgAB1x9AAecc
+					8AHnHQAB5x4AAecfQAIXHDACFx0QAhceKwIX
+					HwICFwwC
 					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
@@ -900,7 +939,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>CodecID</key>
 					<integer>283902550</integer>
 					<key>Comment</key>
@@ -917,16 +958,18 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>DalianSky - Realtek ALC256 (3246) for Dell 7000 Series</string>
 					<key>CodecID</key>
 					<integer>283902550</integer>
 					<key>ConfigData</key>
 					<data>
-					ASccIAEnHQEBJx6mAScfkAE3HPABNx0AATce
+					AScccAEnHQEBJx6mAScfkAE3HPABNx0AATce
 					AAE3H0ABRxxAAUcdAQFHHhcBRx+QAUcMAgGH
-					HPABhx0AAYceAAGHH0ABlxwQAZcdEAGXHosB
+					HPABhx0AAYceAAGHH0ABlxxwAZcdEAGXHqsB
 					lx8CAacc8AGnHQABpx4AAacfQAG3HPABtx0A
 					AbceAAG3H0AB1xzwAdcdAAHXHgAB1x9AAecc
 					8AHnHQAB5x4AAecfQAIXHDACFx0QAhceKwIX
@@ -939,7 +982,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>MacPeet ALC260 for Fujitsu Celsius M 450</string>
 					<key>CodecID</key>
@@ -958,7 +1003,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Custom ALC260</string>
 					<key>CodecID</key>
@@ -975,7 +1022,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>MacPeet - ALC262</string>
 					<key>CodecID</key>
@@ -994,7 +1043,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Goldfish64 - ALC262 for HP Compaq dc7700 SFF</string>
 					<key>CodecID</key>
@@ -1012,44 +1063,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
-					<string>MacPeet - ALC262 for Fujitsu Celsius H270</string>
-					<key>CodecID</key>
-					<integer>283902562</integer>
-					<key>ConfigData</key>
 					<data>
-					AUccEAFHHQABRx4TAUcfkAFXHCABVx0QAVce
-					IQFXHwIBhxwwAYcdEAGHHoEBhx8CAZccQAGX
-					HQABlx6jAZcfkAGnHFABpx0QAacegQGnHwE=
+					AwAAAA==
 					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>13</integer>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
-					<string>MacPeet - ALC262 for HP Z800-Z600 series</string>
-					<key>CodecID</key>
-					<integer>283902562</integer>
-					<key>ConfigData</key>
-					<data>
-					AZccAAGXHREBlx6gAZcfkgGnHBABpx0xAace
-					gAGnH5EBVxwgAVcdQQFXHhABVx+RAWccMAFn
-					HQEBZx4AAWcfKQGHHEABhx2QAYceoAGHH5EB
-					txxQAbcdEAG3HisBtx8C
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>28</integer>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC268</string>
 					<key>CodecID</key>
@@ -1067,7 +1083,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone Laptop patch ALC269 Asus N53J</string>
 					<key>CodecID</key>
@@ -1085,7 +1103,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC269-VB v1</string>
 					<key>CodecID</key>
@@ -1103,7 +1123,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>ALC269</string>
 					<key>CodecID</key>
@@ -1127,7 +1149,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC269-VB v2</string>
 					<key>CodecID</key>
@@ -1145,7 +1169,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC269-VB v3</string>
 					<key>CodecID</key>
@@ -1163,7 +1189,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC269-VC v1</string>
 					<key>CodecID</key>
@@ -1181,7 +1209,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC269-VC v2</string>
 					<key>CodecID</key>
@@ -1199,7 +1229,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC269VC-v3</string>
 					<key>CodecID</key>
@@ -1217,7 +1249,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC269VB v4</string>
 					<key>CodecID</key>
@@ -1235,28 +1269,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>CodecID</key>
-					<string>283902569</string>
-					<key>Comment</key>
-					<string>Toleda ALC269 patch for Brix</string>
-					<key>ConfigData</key>
 					<data>
-					IUcc8CFHHQAhRx4AIUcfQCFXHHAhVx1AIVce
-					ISFXHwIhZxzwIWcdACFnHgAhZx9AIXcc8CF3
-					HQAhdx4AIXcfQCGHHPAhhx0AIYceACGHH0Ah
-					lxzwIZcdACGXHgAhlx9AIacc8CGnHQAhpx4A
-					IacfQCG3HPAhtx0AIbceACG3H0Ah5xyQIecd
-					YSHnHksh5x8B
+					AwAAAA==
 					</data>
-					<key>FuncGroup</key>
-					<string>1</string>
-					<key>LayoutID</key>
-					<string>10</string>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
 					<key>Codec</key>
 					<string>Mosser - ALC269VB Dell Precision Workstation T1600</string>
 					<key>CodecID</key>
@@ -1274,7 +1289,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>InsanelyDeepak - Realtek ALC269VC for Samsung NP350V5C-S08IT</string>
 					<key>CodecID</key>
@@ -1292,7 +1309,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>CodecID</key>
 					<integer>283902569</integer>
 					<key>Comment</key>
@@ -1314,7 +1333,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>MacPeet - ALC269VB for Dell Optiplex 790</string>
 					<key>CodecID</key>
@@ -1332,7 +1353,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>MacPeet - ALC269VB for Dell Optiplex 790 Version2</string>
 					<key>CodecID</key>
@@ -1350,7 +1373,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Hypereitan - ALC269VC for Thinkpad X230 i7</string>
 					<key>CodecID</key>
@@ -1384,7 +1409,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>ALC269</string>
 					<key>CodecID</key>
@@ -1404,7 +1431,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>ALC269</string>
 					<key>CodecID</key>
@@ -1424,7 +1453,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>ALC269VC</string>
 					<key>CodecID</key>
@@ -1444,7 +1475,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>CodecID</key>
 					<integer>283902569</integer>
 					<key>Comment</key>
@@ -1462,7 +1495,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>CodecID</key>
 					<integer>283902569</integer>
 					<key>Comment</key>
@@ -1480,7 +1515,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>CodecID</key>
 					<integer>283902569</integer>
 					<key>Comment</key>
@@ -1498,7 +1535,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC269VC - Samsung NP350V5C-S0URU</string>
 					<key>CodecID</key>
@@ -1516,7 +1555,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>vusun123 - Realtek ALC269VC for Lenovo W530</string>
 					<key>CodecID</key>
@@ -1534,7 +1575,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Custom ALC269VB for ENZ C16B by jimmy19990</string>
 					<key>CodecID</key>
@@ -1552,7 +1595,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>ALC269</string>
 					<key>CodecID</key>
@@ -1576,7 +1621,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>ALC269-VB v4 Mod by Andrey1970 (No input boost - no noise in Siri)</string>
 					<key>CodecID</key>
@@ -1594,7 +1641,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>ALC269</string>
 					<key>CodecID</key>
@@ -1614,7 +1663,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC270 v1</string>
 					<key>CodecID</key>
@@ -1631,7 +1682,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC270 v2</string>
 					<key>CodecID</key>
@@ -1648,7 +1701,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>ALC270</string>
 					<key>CodecID</key>
@@ -1672,7 +1727,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>ALC270</string>
 					<key>CodecID</key>
@@ -1696,7 +1753,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>CodecID</key>
 					<integer>283902569</integer>
 					<key>Comment</key>
@@ -1715,7 +1774,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC272</string>
 					<key>CodecID</key>
@@ -1733,7 +1794,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>ALC 272 - Lenovo B470 - Sam Chen</string>
 					<key>CodecID</key>
@@ -1751,7 +1814,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC275</string>
 					<key>CodecID</key>
@@ -1768,7 +1833,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>InsanelyDeepak - Realtek ALC275</string>
 					<key>CodecID</key>
@@ -1787,7 +1854,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Custom ALC275 for Sony Vaio - vusun123</string>
 					<key>CodecID</key>
@@ -1805,7 +1874,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC280</string>
 					<key>CodecID</key>
@@ -1823,25 +1894,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
-					<string>Mirone - Realtek ALC280 - ComboJack</string>
-					<key>CodecID</key>
-					<integer>283902592</integer>
-					<key>ConfigData</key>
 					<data>
-					ASccEAEnHQABJx6gAScfkAFHHCABRx0AAUce
-					FwFHH5ABVxwwAVcdEAFXHiEBVx8CAaccQAGn
-					HRABpx6BAacfAgFHDAIBVwwC
+					AwAAAA==
 					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>4</integer>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
 					<key>Codec</key>
 					<string>Alienware alpha - Realtek ALC280</string>
 					<key>CodecID</key>
@@ -1862,43 +1917,29 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
-					<string>MacPeet - Realtek ALC280 - Dell T20 - Version1 - ManualMode</string>
+					<string>Mirone - Realtek ALC280 - ComboJack</string>
 					<key>CodecID</key>
 					<integer>283902592</integer>
 					<key>ConfigData</key>
 					<data>
-					AbccIAG3HUABtx4BAbcfAQGnHDABpx2QAace
-					gQGnHwIBhxxAAYcdMAGHHoEBhx8BAVccYAFX
-					HUABVx4hAVcfAgFXDAI=
+					ASccEAEnHQABJx6gAScfkAFHHCABRx0AAUce
+					FwFHH5ABVxwwAVcdEAFXHiEBVx8CAaccQAGn
+					HRABpx6BAacfAgFHDAIBVwwC
 					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
-					<integer>13</integer>
+					<integer>4</integer>
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
-					<string>MacPeet - Realtek ALC280 - Dell T20 - Version2 - SwitchMode</string>
-					<key>CodecID</key>
-					<integer>283902592</integer>
-					<key>ConfigData</key>
 					<data>
-					AbccIAG3HUABtx4RAbcfkAGnHDABpx2QAace
-					gQGnHwIBhxxAAYcdMAGHHoEBhx8BAVccYAFX
-					HUABVx4hAVcfAgFXDAI=
+					AwAAAA==
 					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>15</integer>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC282_v1</string>
 					<key>CodecID</key>
@@ -1916,7 +1957,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC282_v2</string>
 					<key>CodecID</key>
@@ -1935,7 +1978,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>InsanelyDeepak - Realtek ALC282</string>
 					<key>CodecID</key>
@@ -1954,7 +1999,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>CodecID</key>
 					<integer>283902594</integer>
 					<key>Comment</key>
@@ -1975,7 +2022,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>CodecID</key>
 					<integer>283902594</integer>
 					<key>Comment</key>
@@ -1996,7 +2045,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>CodecID</key>
 					<integer>283902594</integer>
 					<key>Comment</key>
@@ -2014,29 +2065,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
-					<string>Custom ALC282 Hasee K580C by YM2008</string>
-					<key>CodecID</key>
-					<integer>283902594</integer>
-					<key>ConfigData</key>
 					<data>
-					ASccEAEnHQEBJx6mAScfkAFHHCABRx1AAUce
-					EQFHHwEBdxzwAXcdAAF3HgABdx9AAYccIAGH
-					HRABhx6BAYcfAQGXHPABlx0AAZceAQGXH0AB
-					pxzwAacdAAGnHgEBpx9AAdcc8AG3HQABtx4B
-					AbcfQAHXHPUB1x0AAdceBQHXH0AB5xzwAecd
-					AAHnHgEB5x9AAhccQAIXHXACFx4hAhcfAQFH
-					DAI=
+					AwAAAA==
 					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>76</integer>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
 					<key>CodecID</key>
 					<integer>283902594</integer>
 					<key>Comment</key>
@@ -2058,50 +2089,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>CodecID</key>
-					<integer>283902594</integer>
-					<key>Comment</key>
-					<string>No input boost ALC282 Acer Aspire on IvyBridge by Andrey1970</string>
-					<key>ConfigData</key>
 					<data>
-					ASccMAEnHQABJx6gAScfkAFHHBABRx0AAUce
-					FwFHH5ABdxzwAXcdAAF3HgABdx9AAYcc8AGH
-					HQABhx4AAYcfQAGXHPABlx0AAZceAAGXH0AB
-					pxzwAacdAAGnHgABpx9AAbcc8AG3HQABtx4A
-					AbcfQAHnHPAB5x0AAeceAAHnH0ACFxwgAhcd
-					EAIXHiECFx8B
+					AwAAAA==
 					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>127</integer>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
-					<string>Toleda NUC/BRIX patch ALC283</string>
-					<key>CodecID</key>
-					<string>283902595</string>
-					<key>ConfigData</key>
-					<data>
-					AScc8AEnHQABJx4AAScfQAFHHPABRx0AAUce
-					AAFHH0ABdxzwAXcdAAF3HgABdx9AAYcc8AGH
-					HQABhx4AAYcfQAGXHGABlx0wAZceiwGXHwEB
-					pxzwAacdAAGnHgABpx9AAbcc8AG3HQABtx4A
-					AbcfQAHXHPAB1x0AAdceAAHXH0AB5xzwAecd
-					AAHnHgAB5x9AAhcccAIXHUACFx4rAhcfAQGX
-					DAICFwwC
-					</data>
-					<key>FuncGroup</key>
-					<string>1</string>
-					<key>LayoutID</key>
-					<string>1</string>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC283</string>
 					<key>CodecID</key>
@@ -2119,7 +2109,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Custom by Slbomber ALC283 (V3-371)</string>
 					<key>CodecID</key>
@@ -2141,7 +2133,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>ASRock DeskMini 110(H110M-STX) ALC283 by licheedev</string>
 					<key>CodecID</key>
@@ -2160,7 +2154,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC284</string>
 					<key>CodecID</key>
@@ -2179,7 +2175,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>CodecID</key>
 					<integer>283902598</integer>
 					<key>CodecName</key>
@@ -2197,7 +2195,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AQAAAA==</data>
+					<data>
+					AQAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC288</string>
 					<key>CodecID</key>
@@ -2216,7 +2216,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>InsanelyDeepak - Realtek ALC288 for Dell XPS 9343</string>
 					<key>CodecID</key>
@@ -2234,7 +2236,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC290</string>
 					<key>CodecID</key>
@@ -2252,7 +2256,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>CodecID</key>
 					<integer>283902608</integer>
 					<key>Comment</key>
@@ -2270,7 +2276,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>CodecID</key>
 					<integer>283902608</integer>
 					<key>Comment</key>
@@ -2288,7 +2296,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Custom ALC292</string>
 					<key>CodecID</key>
@@ -2306,7 +2316,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>CodecID</key>
 					<integer>283902610</integer>
 					<key>Comment</key>
@@ -2324,7 +2336,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>CodecID</key>
 					<integer>283902610</integer>
 					<key>Comment</key>
@@ -2342,7 +2356,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Andres ALC293 Dell E7450</string>
 					<key>CodecID</key>
@@ -2365,7 +2381,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>tluck - ALC 293 for Lenovo T460/T560 - extra LineOut on Dock</string>
 					<key>CodecID</key>
@@ -2387,7 +2405,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>tluck - ALC 293 for Lenovo T460/T560</string>
 					<key>CodecID</key>
@@ -2409,24 +2429,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
-					<string>InsanelyDeepak - Realtek ALC294</string>
-					<key>CodecID</key>
-					<integer>283902612</integer>
-					<key>ConfigData</key>
 					<data>
-					AXccEAF3HQABdx4XAXcfkAEnHCABJx0AASce
-					oAEnH5ACFxwwAhcdEAIXHiECFx8A
+					AwAAAA==
 					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>13</integer>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC295/ALC3254</string>
 					<key>CodecID</key>
@@ -2444,30 +2449,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
-					<string>DalianSky - Realtek ALC295/ALC3254 Dell7570</string>
-					<key>CodecID</key>
-					<integer>283902613</integer>
-					<key>ConfigData</key>
 					<data>
-					ASccIAEnHQEBJx6mAScfkAE3HPABNx0AATce
-					AAE3H0ABRxxAAUcdAQFHHhcBRx+QAUcMAgFn
-					HPABZx0AAWceAAFnH0ABdxzwAXcdAAF3HgAB
-					dx9AAYcc8AGHHQABhx4AAYcfQAGXHBABlx0Q
-					AZcegQGXHwIBpxzwAacdAAGnHgABpx9AAbcc
-					8AG3HQABtx4AAbcfQAHXHPAB1x0AAdceAAHX
-					H0AB5xzwAecdAAHnHgAB5x9AAhccMAIXHRAC
-					Fx4hAhcfAgIXDAI=
+					AwAAAA==
 					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>13</integer>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
 					<key>Codec</key>
 					<string>vusun123 - ALC 295 for Skylake HP Pavilion</string>
 					<key>CodecID</key>
@@ -2485,7 +2469,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC298 SP4 - ComboJack</string>
 					<key>CodecID</key>
@@ -2503,7 +2489,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Rockjesus - Realtek ALC298 for Alienware 17 ALC3266</string>
 					<key>CodecID</key>
@@ -2521,16 +2509,22 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
-					<string>InsanelyDeepak - Realtek ALC298</string>
+					<string>DalianSky - XiaoMiPro ALC298</string>
 					<key>CodecID</key>
 					<integer>283902616</integer>
 					<key>ConfigData</key>
 					<data>
-					AXccEAF3HQABdx4XAXcfkAEnHCABJx0AASce
-					oAEnH5ACFxwwAhcdEAIXHiECFx8CAYccQAGH
-					HRABhx6BAYcfAgFHDAICFwwC
+					ASccIAEnHQABJx6gAScfkAE3HPABNx0AATce
+					AAE3H0ABRxzwAUcdAAFHHgABRx9AAXccEAF3
+					HQABdx4XAXcfkAGHHEABhx0QAYcegQGHHwIB
+					lxzwAZcdAAGXHgABlx9AAacc8AGnHQABpx4A
+					AacfQAHXHPAB1x0AAdceAAHXH0AB5xzwAecd
+					AAHnHgAB5x9AAfcc8AH3HQAB9x4AAfcfQAIX
+					HDACFx0QAhceIQIXHwIBdwwCAhcMAg==
 					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
@@ -2539,7 +2533,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>vusun123 - Realtek ALC298 for Dell XPS 9x50</string>
 					<key>CodecID</key>
@@ -2556,7 +2552,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>vusun123 - Realtek ALC298 for Lenovo X270</string>
 					<key>CodecID</key>
@@ -2584,7 +2582,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Daliansky - Realtek ALC298 ThinkPad T470p</string>
 					<key>CodecID</key>
@@ -2602,7 +2602,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Custom - Realtek ALC298 for Dell XPS 9560 by KNNSpeed</string>
 					<key>CodecID</key>
@@ -2621,29 +2623,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
-					<string>Daliansky - Realtek ALC298 XiaoMi Pro</string>
-					<key>CodecID</key>
-					<integer>283902616</integer>
-					<key>ConfigData</key>
 					<data>
-					ASccIAEnHQABJx6gAScfkAE3HPABNx0AATce
-					AAE3H0ABRxzwAUcdAAFHHgABRx9AAXccQAF3
-					HQABdx4XAXcfkAGHHBABhx0QAYcegQGHHwIB
-					lxzwAZcdAAGXHgABlx9AAacc8AGnHQABpx4A
-					AacfQAHXHPAB1x0AAdceAAHXH0AB5xzwAecd
-					AAHnHgAB5x9AAfcc8AH3HQAB9x4AAfcfQAIX
-					HDACFx0QAhceIQIXHwIBdwwCAhcMAg==
+					AwAAAA==
 					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>99</integer>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC662</string>
 					<key>CodecID</key>
@@ -2662,7 +2644,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC662</string>
 					<key>CodecID</key>
@@ -2683,7 +2667,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Custom ALC662 by Irving23 for Lenovo ThinkCentre M8400t-N000</string>
 					<key>CodecID</key>
@@ -2702,7 +2688,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Custom ALC662 by stich86 for Lenovo ThinkCentre M800</string>
 					<key>CodecID</key>
@@ -2721,7 +2709,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Custom ALC662 by Vandroiy for Asus X66Ic</string>
 					<key>CodecID</key>
@@ -2743,7 +2733,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC663</string>
 					<key>CodecID</key>
@@ -2760,7 +2752,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC663_V2</string>
 					<key>CodecID</key>
@@ -2779,7 +2773,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>ALC663</string>
 					<key>CodecID</key>
@@ -2800,29 +2796,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
-					<string>ALC663</string>
-					<key>CodecID</key>
-					<integer>283903587</integer>
-					<key>Comment</key>
-					<string>Custom by alex1960 for ASUS N71J</string>
-					<key>ConfigData</key>
 					<data>
-					AUccAAFHHQEBRx4TAUcfmQA3HBAANx0AADce
-					VgA3HxgCFxwgAhcdQAIXHiECFx8BAbccMAG3
-					HUABtx4hAbcfAQHnHEAB5x0BAeceQwHnH5kB
-					hxxQAYcdCQGHHqMBhx+ZAZccYAGXHZwBlx6B
-					AZcfAQF3HPABdx0BAXceEwF3H5k=
+					AwAAAA==
 					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>99</integer>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
 					<key>Codec</key>
 					<string>InsanelyDeepak - Realtek ALC665</string>
 					<key>CodecID</key>
@@ -2841,7 +2817,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>InsanelyDeepak - Realtek ALC665</string>
 					<key>CodecID</key>
@@ -2860,7 +2838,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>CodecID</key>
 					<integer>283903592</integer>
 					<key>Comment</key>
@@ -2879,7 +2859,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>CodecID</key>
 					<integer>283903592</integer>
 					<key>Comment</key>
@@ -2897,7 +2879,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>CodecID</key>
 					<integer>283903592</integer>
 					<key>Comment</key>
@@ -2914,7 +2898,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>CodecID</key>
 					<integer>283903592</integer>
 					<key>Comment</key>
@@ -2933,7 +2919,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>CodecID</key>
 					<integer>283903592</integer>
 					<key>Comment</key>
@@ -2955,7 +2943,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>CodecID</key>
 					<integer>283903600</integer>
 					<key>Comment</key>
@@ -2979,7 +2969,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>CodecID</key>
 					<integer>283903601</integer>
 					<key>Comment</key>
@@ -2996,7 +2988,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC882</string>
 					<key>CodecID</key>
@@ -3015,7 +3009,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC882</string>
 					<key>CodecID</key>
@@ -3036,7 +3032,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>ALC883</string>
 					<key>CodecID</key>
@@ -3059,7 +3057,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>CodecID</key>
 					<integer>283904133</integer>
 					<key>Comment</key>
@@ -3081,7 +3081,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>ALC885</string>
 					<key>CodecID</key>
@@ -3105,7 +3107,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>CodecID</key>
 					<integer>283904135</integer>
 					<key>Comment</key>
@@ -3127,7 +3131,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>CodecID</key>
 					<integer>283904135</integer>
 					<key>Comment</key>
@@ -3149,7 +3155,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>CodecID</key>
 					<integer>283904135</integer>
 					<key>Comment</key>
@@ -3171,7 +3179,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC887-VD</string>
 					<key>CodecID</key>
@@ -3190,7 +3200,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC887-VD</string>
 					<key>CodecID</key>
@@ -3211,7 +3223,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>InsanelyDeepak - Realtek ALC887-VD</string>
 					<key>CodecID</key>
@@ -3229,7 +3243,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>InsanelyDeepak - Realtek ALC887-VD</string>
 					<key>CodecID</key>
@@ -3248,7 +3264,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>InsanelyDeepak - Realtek ALC887-VD</string>
 					<key>CodecID</key>
@@ -3268,7 +3286,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>InsanelyDeepak - Realtek ALC887-VD</string>
 					<key>CodecID</key>
@@ -3287,7 +3307,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>CodecID</key>
 					<integer>283904135</integer>
 					<key>Comment</key>
@@ -3311,7 +3333,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Custom Realtek ALC887-VD by Constanta</string>
 					<key>CodecID</key>
@@ -3390,7 +3414,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC888 for Laptop</string>
 					<key>CodecID</key>
@@ -3410,7 +3436,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC888 3 ports (Pink, Green, Blue)</string>
 					<key>CodecID</key>
@@ -3429,7 +3457,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC888 5/6 ports (Gray, Black, Orange, Pink, Green, Blue)</string>
 					<key>CodecID</key>
@@ -3450,7 +3480,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>ALC888S-VD Version1 for MedionP9614 by MacPeet</string>
 					<key>CodecID</key>
@@ -3469,7 +3501,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>ALC888S-VD Version2 for MedionE7216 by MacPeet</string>
 					<key>CodecID</key>
@@ -3489,7 +3523,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>ALC888S-VD Version3 for MedionP8610 by MacPeet</string>
 					<key>CodecID</key>
@@ -3567,25 +3603,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
-					<string>MacPeet - ALC891 for HP Pavilion Power 580-030ng</string>
-					<key>CodecID</key>
-					<integer>283904103</integer>
-					<key>ConfigData</key>
 					<data>
-					AXccIAF3HRABdx4hAXcfAgGHHDABhx2QAYce
-					gQGHHwEBtxxAAbcdMAG3HoEBtx8BAhccYAIX
-					HQACFx4RAhcfAAIXDAI=
+					AwAAAA==
 					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>11</integer>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
 					<key>Codec</key>
 					<string>InsanelyDeepak - Realtek ALC891</string>
 					<key>CodecID</key>
@@ -3664,7 +3684,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC892 for Laptop</string>
 					<key>CodecID</key>
@@ -3783,23 +3805,6 @@
 					<key>CodecID</key>
 					<integer>283904146</integer>
 					<key>Comment</key>
-					<string>ALC892 with working SPDIF</string>
-					<key>ConfigData</key>
-					<data>
-					AUccEAFHHUABRx4RAUcfAQGHHFABhx2QAYce
-					oAGHH5ABlxxgAZcdkAGXHoEBlx8CAacccAGn
-					HTABpx6BAacfAQG3HIABtx1AAbceIQG3HwEB
-					5xyQAecd4AHnHkUB5x8B
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>98</integer>
-				</dict>
-				<dict>
-					<key>CodecID</key>
-					<integer>283904146</integer>
-					<key>Comment</key>
 					<string>Custom ALC892 DNS P150EM by Constanta</string>
 					<key>ConfigData</key>
 					<data>
@@ -3875,7 +3880,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC898</string>
 					<key>CodecID</key>
@@ -3894,7 +3901,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC898</string>
 					<key>CodecID</key>
@@ -3937,7 +3946,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>InsanelyDeepak - Realtek ALC898 for MSI GS40</string>
 					<key>CodecID</key>
@@ -3975,7 +3986,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Realtek ALC898 for CLEVO P65xRS(-G) by datasone</string>
 					<key>CodecID</key>
@@ -3995,7 +4008,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Realtek ALC898 for MSI GP62-6QG Leopard Pro</string>
 					<key>CodecID</key>
@@ -4018,28 +4033,10 @@
 					<integer>99</integer>
 				</dict>
 				<dict>
-					<key>CodecID</key>
-					<integer>283904153</integer>
-					<key>Comment</key>
-					<string>ALC898, 4 Line Out by Andrey1970</string>
-					<key>ConfigData</key>
-					<data>
-					AUccAAFHHUABRx4RAUcfkAFXHBABVx0QAVce
-					AQFXHwEBZxwgAWcdYAFnHgEBZx8BAYccMAGH
-					HZABhx6gAYcfkAGnHEABpx0wAacegQGnHwEB
-					lxxQAZcdkAGXHoEBlx8CAbccYAG3HUABtx4h
-					AbcfAgHnHHAB5x1hAeceSwHnHwEBdxyAAXcd
-					IAF3HgEBdx8BAfcc8AH3HQAB9x4AAfcfSQEX
-					HPABFx0AARceAAEXH0k=
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>101</integer>
-				</dict>
-				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>CodecID</key>
 					<integer>283904256</integer>
 					<key>Comment</key>
@@ -4061,7 +4058,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>CodecID</key>
 					<integer>283904256</integer>
 					<key>Comment</key>
@@ -4083,7 +4082,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>CodecID</key>
 					<integer>283904256</integer>
 					<key>Comment</key>
@@ -4105,7 +4106,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC1150</string>
 					<key>CodecID</key>
@@ -4124,7 +4127,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC1150</string>
 					<key>CodecID</key>
@@ -4145,7 +4150,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Realtek ALC1150 (mic boost)</string>
 					<key>CodecID</key>
@@ -4166,7 +4173,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>CodecID</key>
 					<integer>283906592</integer>
 					<key>CodecName</key>
@@ -4187,7 +4196,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>CodecID</key>
 					<integer>283906592</integer>
 					<key>CodecName</key>
@@ -4208,7 +4219,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>MDMwMDAwMDA=</data>
+					<data>
+					MDMwMDAwMDA=
+					</data>
 					<key>CodecID</key>
 					<integer>283906592</integer>
 					<key>CodecName</key>
@@ -4227,7 +4240,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>MDMwMDAwMDA=</data>
+					<data>
+					MDMwMDAwMDA=
+					</data>
 					<key>CodecID</key>
 					<integer>283906592</integer>
 					<key>CodecName</key>
@@ -4248,7 +4263,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>CodecID</key>
 					<integer>283906592</integer>
 					<key>CodecName</key>
@@ -4268,7 +4285,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>CodecID</key>
 					<integer>283906408</integer>
 					<key>CodecName</key>
@@ -4290,7 +4309,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>CodecID</key>
 					<integer>283906408</integer>
 					<key>CodecName</key>
@@ -4312,7 +4333,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>MDMwMDAwMDA=</data>
+					<data>
+					MDMwMDAwMDA=
+					</data>
 					<key>CodecID</key>
 					<integer>283906408</integer>
 					<key>CodecName</key>
@@ -4331,7 +4354,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>MDMwMDAwMDA=</data>
+					<data>
+					MDMwMDAwMDA=
+					</data>
 					<key>CodecID</key>
 					<integer>283906408</integer>
 					<key>CodecName</key>
@@ -4352,7 +4377,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Conexant CX8050</string>
 					<key>CodecID</key>
@@ -4370,7 +4397,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Conexant CX8200</string>
 					<key>CodecID</key>
@@ -4406,7 +4435,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Conexant CX20583</string>
 					<key>CodecID</key>
@@ -4427,7 +4458,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Conexant CX20585</string>
 					<key>CodecID</key>
@@ -4448,7 +4481,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Constanta custom for Toshiba L755-16R - Conexant CX20585</string>
 					<key>CodecID</key>
@@ -4469,7 +4504,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Conexant CX20588</string>
 					<key>CodecID</key>
@@ -4487,7 +4524,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Conexant CX20590</string>
 					<key>CodecID</key>
@@ -4505,7 +4544,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AQAAAA==</data>
+					<data>
+					AQAAAA==
+					</data>
 					<key>CodecID</key>
 					<integer>351359086</integer>
 					<key>Comment</key>
@@ -4526,79 +4567,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>CodecID</key>
-					<integer>351359137</integer>
-					<key>Comment</key>
-					<string>CX20641 - MacPeet - Dell OptiPlex 3010 - ManualMode</string>
-					<key>ConfigData</key>
 					<data>
-					IcccECHHHUAhxx4BIccfASGnHCAhpx2QIace
-					gSGnHwIhtxwwIbcdMCG3HoEhtx8BIZccQCGX
-					HUAhlx4hIZcfAg==
+					AwAAAA==
 					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>11</integer>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>CodecID</key>
-					<integer>351359137</integer>
-					<key>Comment</key>
-					<string>CX20641 - MacPeet - Dell OptiPlex 3010 - SwitchMode</string>
-					<key>ConfigData</key>
-					<data>
-					IcccECHHHUAhxx4RIccfkCGnHCAhpx2QIace
-					gSGnHwIhtxwwIbcdMCG3HoEhtx8BIZccQCGX
-					HUAhlx4hIZcfAg==
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>13</integer>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>CodecID</key>
-					<integer>351359138</integer>
-					<key>Comment</key>
-					<string>CX20642 - MacPeet - Fujitsu ESPRIMO E910 E90+ Desktop - ManualMode</string>
-					<key>ConfigData</key>
-					<data>
-					IcccECHHHUAhxx4BIccfASGnHCAhpx0QIace
-					gSGnHwIhlxxAIZcdECGXHiEhlx8CIdccUCHX
-					HTAh1x6BIdcfAQ==
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>11</integer>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>CodecID</key>
-					<integer>351359138</integer>
-					<key>Comment</key>
-					<string>CX20642 - MacPeet - Fujitsu ESPRIMO E910 E90+ Desktop - SwitchMode</string>
-					<key>ConfigData</key>
-					<data>
-					IcccECHHHUAhxx4RIccfkCGnHCAhpx0QIace
-					oSGnH5IhlxxAIZcdECGXHiEhlx8CIdccUCHX
-					HTAh1x6BIdcfAQ==
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>13</integer>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
 					<key>CodecID</key>
 					<integer>351359086</integer>
 					<key>Comment</key>
@@ -4616,7 +4587,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AQAAAA==</data>
+					<data>
+					AQAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Conexant CX20722</string>
 					<key>CodecID</key>
@@ -4634,7 +4607,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Conexant CX20724</string>
 					<key>CodecID</key>
@@ -4652,7 +4627,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>InsanelyDeepak - Conexant CX20724</string>
 					<key>CodecID</key>
@@ -4670,7 +4647,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Conexant CX20752</string>
 					<key>CodecID</key>
@@ -4704,7 +4683,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Conexant CX20753/4</string>
 					<key>CodecID</key>
@@ -4722,7 +4703,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Conexant CX20755</string>
 					<key>CodecID</key>
@@ -4740,7 +4723,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AQAAAA==</data>
+					<data>
+					AQAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Conexant CX20756</string>
 					<key>CodecID</key>
@@ -4758,7 +4743,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>InsanelyDeepak - Conexant CX20756</string>
 					<key>CodecID</key>
@@ -4776,7 +4763,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AQAAAA==</data>
+					<data>
+					AQAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - Conexant CX20757</string>
 					<key>CodecID</key>
@@ -4794,13 +4783,17 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Custom IDT 92HD87B1/3 by RehabMan</string>
 					<key>CodecID</key>
 					<integer>287143633</integer>
 					<key>ConfigData</key>
-					<data>AMcegQDHHwM=</data>
+					<data>
+					AMcegQDHHwM=
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -4808,7 +4801,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>InsanelyDeepak - IDT92HD87B1/3</string>
 					<key>CodecID</key>
@@ -4826,13 +4821,17 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Custom IDT92HD87B2/4 by RehabMan</string>
 					<key>CodecID</key>
 					<integer>287143641</integer>
 					<key>ConfigData</key>
-					<data>AMcegQDHHwMBFx6gARcfkA==</data>
+					<data>
+					AMcegQDHHwMBFx6gARcfkA==
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -4840,7 +4839,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Custom IDT92HD95 by RehabMan</string>
 					<key>CodecID</key>
@@ -4858,7 +4859,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - IDT 92HD66C3/65</string>
 					<key>CodecID</key>
@@ -4876,7 +4879,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - IDT 92HD71B7X</string>
 					<key>CodecID</key>
@@ -4899,7 +4904,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Dell Studio 1535 - IDT 92HD73C1X5 by chunnann</string>
 					<key>CodecID</key>
@@ -4917,7 +4924,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - IDT 92HD81B1C5</string>
 					<key>CodecID</key>
@@ -4935,7 +4944,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Goldfish64 - IDT 92HD81B1C5 for Dell Latitude E6410</string>
 					<key>CodecID</key>
@@ -4957,7 +4968,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - IDT 92HD81B1X5</string>
 					<key>CodecID</key>
@@ -4978,7 +4991,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Custom IDT 92HD81B1X5 by Andres ZeroCross</string>
 					<key>CodecID</key>
@@ -5000,13 +5015,17 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>RehabMan - IDT 92HD81B1X5</string>
 					<key>CodecID</key>
 					<integer>287143429</integer>
 					<key>ConfigData</key>
-					<data>AMcegQDHHwMBFx6gARcfkA==</data>
+					<data>
+					AMcegQDHHwMBFx6gARcfkA==
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -5052,7 +5071,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Custom IDT 92HD81B1X5 by Gujiangjiang for HP Pavilion g4 1000 series</string>
 					<key>CodecID</key>
@@ -5070,7 +5091,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - IDT 92HD75B2X5</string>
 					<key>CodecID</key>
@@ -5091,7 +5114,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - IDT 92HD75B3X5</string>
 					<key>CodecID</key>
@@ -5109,7 +5134,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - IDT 92HD75B3X5</string>
 					<key>CodecID</key>
@@ -5126,7 +5153,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - IDT 92HD90BXX</string>
 					<key>CodecID</key>
@@ -5146,7 +5175,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>vusun123 - IDT 92HD90BXX</string>
 					<key>CodecID</key>
@@ -5164,7 +5195,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - IDT 92HD91BXX </string>
 					<key>CodecID</key>
@@ -5185,7 +5218,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>RehabMan - IDT 92HD91BXX for HP Envy</string>
 					<key>CodecID</key>
@@ -5206,25 +5241,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
-					<string>MacPeet - IDT92HD91BXX for HP Envy 6 1171-SG</string>
-					<key>CodecID</key>
-					<integer>287143648</integer>
-					<key>ConfigData</key>
 					<data>
-					ALccEAC3HRAAtx4hALcfAAC3DAIAxxwgAMcd
-					EADHHoEAxx8AARccMAEXHQABFx6jARcfmQDX
-					HEAA1x0AANceEADXH5AA1wwC
+					AwAAAA==
 					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>13</integer>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
 					<key>Codec</key>
 					<string>jl4c - IDT 92HD91BXX for HP Envy</string>
 					<key>CodecID</key>
@@ -5245,28 +5264,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
-					<key>Codec</key>
-					<string>macish - IDT 92HD91BXX for HP Elitebook G1</string>
-					<key>CodecID</key>
-					<integer>287143648</integer>
-					<key>ConfigData</key>
 					<data>
-					AKccAACnHRAApx6BAKcfAQC3HBAAtx0QALce
-					IQC3HwMAxxwgAMcdAADHHgAAxx9JARccMAEX
-					HQABFx6gARcfmQD3HEAA9x0BAPceFwD3H5kA
-					5xxQAOcdEADnHgEA5x8jAQccYAEHHQABBx4A
-					AQcfSQH3HHAB9x0AAfceAAH3H0kCBxyAAgcd
-					AAIHHgACBx9J
+					AwAAAA==
 					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>84</integer>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
 					<key>Codec</key>
 					<string>Custom - IDT 92HD93BXX Dell Latitude E6430</string>
 					<key>CodecID</key>
@@ -5286,7 +5286,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - IDT 92HD99BXX </string>
 					<key>CodecID</key>
@@ -5305,7 +5307,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - IDT 92HD87B1</string>
 					<key>CodecID</key>
@@ -5326,7 +5330,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - VIA VT1802</string>
 					<key>CodecID</key>
@@ -5345,7 +5351,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>ChalesYu - VIA VT1802</string>
 					<key>CodecID</key>
@@ -5363,7 +5371,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - VIA VT2021</string>
 					<key>CodecID</key>
@@ -5382,7 +5392,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>Mirone - VIA VT2021</string>
 					<key>CodecID</key>
@@ -5403,7 +5415,9 @@
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
-					<data>AwAAAA==</data>
+					<data>
+					AwAAAA==
+					</data>
 					<key>Codec</key>
 					<string>SonicBSV - VIA VT2020/2021</string>
 					<key>CodecID</key>
