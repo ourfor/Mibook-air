@@ -322,7 +322,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>arch=x86_64 dart=0 npci=0x2000 -disablegfxfirmware -igfxbeta -igfxdvmtbeta abm_firstpolldelay=10000</string>
+		<string>arch=x86_64 dart=0 npci=0x2000 -disablegfxfirmware -igfxbeta -igfxdvmtbeta abm_firstpolldelay=10000 igfxfw=1</string>
 		<key>CustomLogo</key>
 		<false/>
 		<key>Debug</key>
