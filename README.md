@@ -10,6 +10,8 @@
 
 更多信息见[小米官网](https://www.mi.com)
 <!--more-->
+
+> 我笔记本BIOS的版本是' 0705 '，如果你使用这个EFI后遇到笔记本无法休眠，即无故睡死，可以通过dsdt打补丁，也可以刷和我版本相同的BIOS,相关[教程]（http://bbs.xiaomi.cn/t-13643021）
  
 
 
@@ -52,7 +54,7 @@ diskutil mount disksxsx  //diskxsx就是你EFI类型分区的IDENTIFIER
 ### 如何扩大ESP分区:
 > 安装macOS时抹除分区是要求待抹除分区所在磁盘的分区大小大于200m，这只是安装macOS时需要这样，而引导macOS启动时则没有这种要求，所以你可以新建一个ESP引导分区，备份原来ESP分区到镜像文件，再从镜像文件恢复到新建的ESP分区，之后删除原来的ESP分区就行了，安装结束以后你可以按照上述方法恢复原来的ESP分区。  
 
-` 用到的工具： `  
+` 用到的工具： ` 
 
 - 磁盘管理(在Windows资源管理器中右键` 此电脑 `打开` 管理 `右键系统分区` 压缩卷 `)         
 - [DiskGenius](http://download.eassos.cn/DG495508_x64.zip)  
@@ -62,6 +64,8 @@ diskutil mount disksxsx  //diskxsx就是你EFI类型分区的IDENTIFIER
 ## 注意 
 - 最好使用微软账户绑定Windows的数字激活证书（只需在设置中换成微软账户登陆就行），这样做的目的是为了方便某些人重装。当然安装黑果不需要重装，也不会影响Windows。
 - 安装黑果前请确保在你即将安装黑果系统的这块硬盘中的ESP分区大于200m。
+- 由于不同版本系统的兼容问题，如果不能正常安装可以删除部分驱动
+> EFI/CLOVER/kexts/Other/CoreDisplayFixup.kext
 
 ## Hackintosh安装
 (详见博主[博客](https://ourfor.top))    
