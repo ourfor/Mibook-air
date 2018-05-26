@@ -477,21 +477,7 @@
 					<key>Type</key>
 					<string>Windows</string>
 					<key>Volume</key>
-					<string>B0BA8B87-D53D-4D46-A0BF-2C79126F5208</string>
-				</dict>
-				<dict>
-					<key>Disabled</key>
-					<false/>
-					<key>FullTitle</key>
-					<string>Ubuntu</string>
-					<key>Ignore</key>
-					<false/>
-					<key>Path</key>
-					<string>\EFI\ubuntu\grubx64.efi</string>
-					<key>Type</key>
-					<string>Linux</string>
-					<key>Volume</key>
-					<string>B0BA8B87-D53D-4D46-A0BF-2C79126F5208</string>
+					<string>CBC7A78D-5CEB-4C9B-829E-86E00538A9A1</string>
 				</dict>
 			</array>
 		</dict>
@@ -552,7 +538,7 @@
 			<key>Intel</key>
 			<false/>
 			<key>NVidia</key>
-			<false/>
+			<true/>
 		</dict>
 		<key>NvidiaSingle</key>
 		<false/>
@@ -750,18 +736,34 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>1536m-&gt;2048m</string>
+				<string>1536MB-&gt;2048MB</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				AQMDAwAAIAIAAAAAAAAAYA==
+				AAAAYGwFAABsBQAAAAAAAA==
 				</data>
 				<key>Name</key>
 				<string>com.apple.driver.AppleIntelKBLGraphicsFramebuffer</string>
 				<key>Replace</key>
 				<data>
-				AQMDAwAAIAIAAAAAAAAAgA==
+				AAAAgGwFAABsBQAAAAAAAA==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>外接HDMI显示器补丁</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				AQUJAAAEAACHAQAAAgQKAA==
+				</data>
+				<key>Name</key>
+				<string>com.apple.driver.AppleIntelKBLGraphicsFramebuffer</string>
+				<key>Replace</key>
+				<data>
+				AQUJAAAIAACHAQAAAgQKAA==
 				</data>
 			</dict>
 		</array>
