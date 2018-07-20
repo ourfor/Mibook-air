@@ -1,6 +1,6 @@
 
-Clover EFI installer log - Sun Jan 21 13:19:34 CST 2018
-Installer version: v2.4k r4380 EFI bootloader
+Clover EFI installer log - Thu Jul 19 22:15:28 CST 2018
+Installer version: v2.4k r4609 EFI bootloader
 ======================================================
 /dev/disk0 (internal):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
@@ -12,20 +12,32 @@ Installer version: v2.4k r4380 EFI bootloader
 /dev/disk1 (internal, physical):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      GUID_partition_scheme                        *256.1 GB   disk1
-   1:           Linux Filesystem                         75.2 GB    disk1s1
-   2:       Microsoft Basic Data Data                    116.5 GB   disk1s2
-   3:       Microsoft Basic Data SWAP                    10.7 GB    disk1s3
-   4:                  Apple_HFS Time Machine            53.7 GB    disk1s4
+   1: 4F68BCE3-E8CD-4DB1-96E7-FBCAF984B709               64.4 GB    disk1s1
+   2:           Linux Filesystem                         8.6 GB     disk1s2
+   3:                 Linux Swap                         2.1 GB     disk1s3
+   4:       Microsoft Basic Data Data                    105.3 GB   disk1s4
+   5:                        EFI                         419.4 MB   disk1s5
+   6:                  Apple_HFS Time Machine            75.2 GB    disk1s6
 
 /dev/disk2 (synthesized):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      APFS Container Scheme -                      +161.1 GB   disk2
                                  Physical Store disk0s2
-   1:                APFS Volume Mac                     46.1 GB    disk2s1
-   2:                APFS Volume Recovery                506.6 MB   disk2s3
-   3:                APFS Volume VM                      4.3 GB     disk2s4
+   1:                APFS Volume Macintosh               19.6 GB    disk2s1
+   2:                APFS Volume Recovery                1.5 GB     disk2s3
+   3:                APFS Volume VM                      2.1 GB     disk2s4
 
-Target volume /Volumes/Mac on disk2 is APFS on physical store disk0s2
+/dev/disk3 (disk image):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        +36.0 MB    disk3
+   1:                  Apple_HFS 未命名                  36.0 MB    disk3s1
+
+/dev/disk4 (disk image):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        +46.1 MB    disk4
+   1:                  Apple_HFS Syncthing               46.1 MB    disk4s1
+
+Target volume /Volumes/Macintosh on disk2 is APFS on physical store disk0s2
 ======================================================
 Backing up EFI files
 
@@ -34,7 +46,6 @@ Installing BootSectors/BootLoader
 
 Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
 Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
-Stage 2 - Written boot6 (x64) to /Volumes/ESP/boot
 
 Theme 'metal' (defined in config.plist) not found !
 Using default theme 'random'

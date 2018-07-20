@@ -95,8 +95,6 @@
 				<true/>
 				<key>FixHPET</key>
 				<true/>
-				<key>FixHeaders</key>
-				<true/>
 			</dict>
 			<key>Patches</key>
 			<array>
@@ -289,6 +287,8 @@
 				<string>DMAR</string>
 			</dict>
 		</array>
+		<key>FixHeaders</key>
+		<true/>
 		<key>HaltEnabler</key>
 		<true/>
 		<key>PatchAPIC</key>
@@ -322,7 +322,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>arch=x86_64 dart=0 npci=0x2000 -disablegfxfirmware -igfxbeta -igfxdvmtbeta abm_firstpolldelay=10000 igfxfw=1</string>
+		<string>dart=0 -igfxbeta igfxfw=1 -igfxdvmtbeta abm_firstpolldelay=10000 arch=x86_64 npci=0x2000 -disablegfxfirmware</string>
 		<key>CustomLogo</key>
 		<false/>
 		<key>Debug</key>
@@ -408,7 +408,7 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<string>27</string>
+			<integer>27</integer>
 			<key>ResetHDA</key>
 			<true/>
 		</dict>
@@ -416,6 +416,8 @@
 		<dict>
 			<key>#Kaby Lake-Comment</key>
 			<string>To avoid automatic Clover fake device-id (Skylake) injection</string>
+			<key>IntelGFX</key>
+			<string>0x59160000</string>
 		</dict>
 		<key>USB</key>
 		<dict>
@@ -469,6 +471,20 @@
 					<key>Disabled</key>
 					<false/>
 					<key>FullTitle</key>
+					<string>Linux</string>
+					<key>Ignore</key>
+					<false/>
+					<key>Path</key>
+					<string>\EFI\ubuntu\grubx64.efi</string>
+					<key>Type</key>
+					<string>Linux</string>
+					<key>Volume</key>
+					<string>71F68EBC-8936-45B8-9AFE-B2EBE91DDF95</string>
+				</dict>
+				<dict>
+					<key>Disabled</key>
+					<false/>
+					<key>FullTitle</key>
 					<string>Windows</string>
 					<key>Ignore</key>
 					<false/>
@@ -477,7 +493,7 @@
 					<key>Type</key>
 					<string>Windows</string>
 					<key>Volume</key>
-					<string>CBC7A78D-5CEB-4C9B-829E-86E00538A9A1</string>
+					<string>71F68EBC-8936-45B8-9AFE-B2EBE91DDF95</string>
 				</dict>
 			</array>
 		</dict>
@@ -499,8 +515,6 @@
 		</dict>
 		<key>Scan</key>
 		<dict>
-			<key>Entries</key>
-			<true/>
 			<key>Legacy</key>
 			<false/>
 			<key>Linux</key>
@@ -510,8 +524,10 @@
 		</dict>
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
+		<key>ShowOptimus</key>
+		<true/>
 		<key>Theme</key>
-		<string>abc</string>
+		<string>random</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -538,10 +554,12 @@
 			<key>Intel</key>
 			<false/>
 			<key>NVidia</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>NvidiaSingle</key>
 		<false/>
+		<key>VRAM</key>
+		<integer>2048</integer>
 		<key>ig-platform-id</key>
 		<string>0x59160000</string>
 	</dict>
@@ -595,6 +613,8 @@
 				<data>
 				RiV1VCUwNHgA
 				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>Name</key>
 				<string>com.apple.driver.AppleBacklight</string>
 				<key>Replace</key>
@@ -611,6 +631,8 @@
 				<data>
 				AABgAgAAUAE=
 				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>Name</key>
 				<string>com.apple.driver.AppleIntelKBLGraphicsFramebuffer</string>
 				<key>Replace</key>
@@ -627,6 +649,8 @@
 				<data>
 				RiV1VCUwNHgA
 				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>Name</key>
 				<string>com.apple.driver.AppleBacklight</string>
 				<key>Replace</key>
@@ -644,6 +668,8 @@
 				AgQKAAAIAACHAQAAAwYKAAAEAACHAQAA/wAAAAEAAAAg
 				AAAA
 				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>Name</key>
 				<string>com.apple.driver.AppleIntelKBLGraphicsFramebuffer</string>
 				<key>Replace</key>
@@ -661,6 +687,8 @@
 				<data>
 				AQAAdSI=
 				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>MatchOS</key>
 				<string>10.13.x</string>
 				<key>Name</key>
@@ -679,6 +707,8 @@
 				<data>
 				AQAAdSU=
 				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>MatchOS</key>
 				<string>10.12.x</string>
 				<key>Name</key>
@@ -695,6 +725,8 @@
 				<false/>
 				<key>Find</key>
 				<string>RiV1VCUwNHgA</string>
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>Name</key>
 				<string>com.apple.driver.AppleBacklight</string>
 				<key>Replace</key>
@@ -709,6 +741,8 @@
 				<data>
 				RXh0ZXJuYWw=
 				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>Name</key>
 				<string>com.apple.driver.AppleAHCIPort</string>
 				<key>Replace</key>
@@ -725,6 +759,8 @@
 				<data>
 				g32UDw+DlwQ=
 				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>MatchOS</key>
 				<string>10.13.4</string>
 				<key>Name</key>
@@ -743,6 +779,8 @@
 				<data>
 				AAAAYGwFAABsBQAAAAAAAA==
 				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>Name</key>
 				<string>com.apple.driver.AppleIntelKBLGraphicsFramebuffer</string>
 				<key>Replace</key>
@@ -759,6 +797,8 @@
 				<data>
 				AQUJAAAEAACHAQAAAgQKAA==
 				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>Name</key>
 				<string>com.apple.driver.AppleIntelKBLGraphicsFramebuffer</string>
 				<key>Replace</key>
