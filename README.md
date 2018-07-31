@@ -26,6 +26,9 @@
 - 蓝牙无法正常使用
 - WiFi目前无解，国外大佬的IntelWifi项目进展迅速，目前已经能够在` 系统偏好设置-网络-Wi-Fi中扫描到WIFI信号了 ` 相关项目地址：[IntelWifi](https://github.com/rpeshkov/IntelWifi)和[black80211](https://github.com/rpeshkov/black80211)
 
+## Changelog
+
+详见[Changelog](./Changelog.md)
 
 ## 如何使用这个EFI
 在[Release](https://github.com/ourfor/mibook-air/releases)下载EFI的打包文件，或者使用` git clone <Repository Address> `clone仓库里面的文件。
