@@ -10,3 +10,9 @@
 #### 关于触摸板
 - 采用此驱动，三指上划下滑更加流畅，但三指点按查询不可用，只能通过按压触摸板左边的实体键来实现鼠标右键的功能
 - ApplePS2SmartTouchPad与VoodooPS2Controller不可同时使用，否则VoodooPS2Controller将不可用。
+
+# 2018年8月7日
+- 更新AppleALC驱动，注入id=99，添加ALCPlugFix，解决睡眠唤醒无声，以及无麦克风输入和噪音比较大的问题。(声卡已经完美)
+
+#### 如何使用ALCPlugFix
+- 在Other目录下的alc_fix目录,然后双击install双击自动安装.command,输入用户密码即可
