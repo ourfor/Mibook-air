@@ -408,7 +408,7 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<integer>99</integer>
+			<integer>27</integer>
 			<key>ResetHDA</key>
 			<true/>
 		</dict>
