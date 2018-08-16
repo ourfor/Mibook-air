@@ -55,7 +55,7 @@
 - VoodooI2CHID
 - VoodooI2CUPDDEngine
 以及DSDT没有打过I2C的补丁
-
+由于git似乎没有检测到我的改动，故我将最新的efi保存到服务器：[下载链接](https://file.ourfor.top/tools/Mibook-air.zip)
 
 
 
