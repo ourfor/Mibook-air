@@ -43,7 +43,8 @@
 如果你需要更加符合你习惯的触摸板和键盘操作逻辑，那么你就很有必要阅读作者的文档了
 如何自定义，找到相关驱动，选中右键-显示包内容-编辑info.plist 更改相关的值就行了
 这里我就暂时不张开讨论(最近一两个星期一直在练习盲打)[链接](https://osxlatitude.com/forums/topic/1948-elan-focaltech-and-synaptics-smart-touchpad-driver-mac-os-x/)     
-如何使用此驱动呢？    
+
+#### 如何使用此驱动呢？   
 只需要下载好我编辑好的ApplePS2SmartTouchPad.kext以及没有打过hdi补丁的dsdt替换对应文件
 
 注意:ApplePS2SmartTouchPad是一个强大的触控板键盘解决方案，任何额外的触控板驱动和键盘驱动都会影响到它的正常工作
