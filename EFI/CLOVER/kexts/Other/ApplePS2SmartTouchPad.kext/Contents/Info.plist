@@ -870,7 +870,7 @@
 					<key>ClickpadVirtualButtons</key>
 					<true/>
 					<key>ClickpadVirtualButtonsArea</key>
-					<integer>22</integer>
+					<integer>0</integer>
 					<key>DisablePhysicalClicks</key>
 					<false/>
 					<key>EnablePointingOnVirtualButtonArea</key>
@@ -1032,7 +1032,7 @@
 						<integer>9</integer>
 					</dict>
 					<key>PalmDetection</key>
-					<true/>
+					<false/>
 					<key>PinchDeltaScale</key>
 					<integer>3</integer>
 					<key>PinchRotateMinSamples</key>
@@ -1376,7 +1376,7 @@
 					<key>4FingersTapAction</key>
 					<integer>5</integer>
 					<key>5FingersTapAction</key>
-					<integer>4</integer>
+					<integer>0</integer>
 					<key>CornerTapAreaHeight</key>
 					<integer>10</integer>
 					<key>CornerTapAreaLength</key>

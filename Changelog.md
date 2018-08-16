@@ -19,3 +19,44 @@
 
 # 2018年8月12日
 - 之前使用的触摸板驱动不太好用，换回之前的版本，同时设置一些常用的手势
+# 2018年8月16日
+
+- 触控板的问题终于完成的比较好了，虽然仍然存在Windows下面重启到OS X下面无法使用的现象，但是这一版驱动特别适合码字
+
+#### 相关说明
+- 仍然采用ApplePS2SmartTouchPad，原因是此驱动功能异常强大，具有很强的自定义功能。
+相关文档请google “ApplePS2SmartTouchPad”，作者有详细的说明
+我做的主要改动
+1. 三指上划  最小化当前应用
+2. 三指下划  窗口预览
+3. 三指左右滑动 前进 后退
+4. 四指 上划 快速切换应用
+5. 四指 下划 隐藏Dock
+6. 四指左右滑动 全屏应用相互切换
+
+键盘相关
+1. 可以随时开启/禁用触控板 按住shift + Cap之后按下F8 之所以设置为F8 是因为F8上面这个图标较为特殊，容易记忆。码字的时候不用担心触控板误触了
+2. 交换windows键和alt键，这样更接近白果
+3. 启用Delete键的删除功能，即可以产生与command + Backspace的效果
+
+如果你需要更加符合你习惯的触摸板和键盘操作逻辑，那么你就很有必要阅读作者的文档了
+如何自定义，找到相关驱动，选中右键-显示包内容-编辑info.plist 更改相关的值就行了
+这里我就暂时不张开讨论，最近一两个星期一直在练习盲打
+
+[链接](https://osxlatitude.com/forums/topic/1948-elan-focaltech-and-synaptics-smart-touchpad-driver-mac-os-x/)
+如何使用此驱动呢？
+只需要下载好我编辑好的ApplePS2SmartTouchPad.kext以及没有打过hdi补丁的dsdt替换对应文件
+
+注意:ApplePS2SmartTouchPad是一个强大的触控板键盘解决方案，任何额外的触控板驱动和键盘驱动都会影响到它的正常工作
+请确保您已经删除了：
+- VoodooPS2Controller
+- VoodooI2C
+- VoodooI2CELAN
+- VoodooI2CHID
+- VoodooI2CUPDDEngine
+以及DSDT没有打过I2C的补丁
+
+
+
+
+

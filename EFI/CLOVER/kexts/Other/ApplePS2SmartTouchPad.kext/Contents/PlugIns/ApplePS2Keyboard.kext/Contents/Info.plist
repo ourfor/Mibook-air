@@ -127,7 +127,7 @@
 				<key>SystemSleep</key>
 				<string>disable</string>
 				<key>Touchpad</key>
-				<string>disable</string>
+				<string>F8</string>
 				<key>VideoMirror</key>
 				<string>disable</string>
 				<key>VolumeDown</key>
@@ -168,7 +168,7 @@
 				<key>Make context menu key into key</key>
 				<integer>84</integer>
 				<key>Make delete key into cmd + backspace</key>
-				<false/>
+				<true/>
 				<key>Make right alt into key</key>
 				<integer>0</integer>
 				<key>Make right control into key</key>
@@ -178,7 +178,7 @@
 				<key>Num Lock enabled at boot</key>
 				<false/>
 				<key>Swap alt and windows key</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>ProductID</key>
 			<integer>782</integer>
