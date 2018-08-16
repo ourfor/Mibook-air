@@ -26,7 +26,8 @@
 #### 相关说明
 - 仍然采用ApplePS2SmartTouchPad，原因是此驱动功能异常强大，具有很强的自定义功能。
 相关文档请google “ApplePS2SmartTouchPad”，作者有详细的说明
-我做的主要改动
+
+> 我做的主要改动
 1. 三指上划  最小化当前应用
 2. 三指下划  窗口预览
 3. 三指左右滑动 前进 后退
@@ -54,7 +55,10 @@
 - VoodooI2CELAN
 - VoodooI2CHID
 - VoodooI2CUPDDEngine
-以及DSDT没有打过I2C的补丁
+
+
+以及DSDT没有打过I2C的补丁   
+
 由于git似乎没有检测到我的改动，故我将最新的efi保存到服务器：[下载链接](https://file.ourfor.top/tools/Mibook-air.zip)
 
 
