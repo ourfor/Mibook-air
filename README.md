@@ -86,3 +86,5 @@ diskutil mount disksxsx  //diskxsx就是你EFI类型分区的IDENTIFIER
 (详见博主[博客](https://ourfor.top))    
 [Releases](https://github.com/ourfor/mibook-air/releases) 
 
+## 常见问题
+[Q&A](Q&A.md)
