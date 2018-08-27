@@ -2,6 +2,17 @@
 <img src="http://ozkg680jm.bkt.clouddn.com/mibook.jpg" width=70% height=30%>
 </p>
 
+<p align=center>
+ <a href="https://github.com/ourfor/Mibook-air/issues"><img src="https://img.shields.io/github/issues/ourfor/Mibook-air.svg"></a> 
+ <a href="https://github.com/ourfor/Mibook-air/network"><img src="https://img.shields.io/github/forks/ourfor/Mibook-air.svg"></a>
+ <a href="https://github.com/ourfor/Mibook-air/stargazers"><img src="https://img.shields.io/github/stars/ourfor/Mibook-air.svg"></a>
+ <a href="https://github.com/ourfor/Mibook-air"><img src="https://img.shields.io/github/license/ourfor/Mibook-air.svg"></a>
+ <a href="https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fourfor%2FMibook-air"><img src="https://img.shields.io/twitter/url/https/github.com/ourfor/Mibook-air.svg?style=social"></a>
+
+</p>
+
+
+
 # Clover配置文件
 ## 这个仓库用来更新小米笔记本Air i7 7500U(指纹版)clover的配置文件
 # 小米笔记本Air-i7-7500U 详细配置:
