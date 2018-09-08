@@ -30,10 +30,14 @@
 # Screenshot
 <table>
  <th>
- <td><img src=Screenshot/bootoption_one></td>
  <td><img src=Screenshot/macOS.png></td>
- <td><img src=Screenshot/Win10.PNG></td>
+ <td><img src=Screenshot/bootoption_one.png></td>
  </th>
+ <tr>
+ <td><img src=Screenshot/bootoption_two.png></td>
+ <td><img src=Screenshot/Win10.PNG></td>
+ </tr>
+
  </table>
 
 
