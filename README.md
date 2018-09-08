@@ -1,5 +1,5 @@
 <p align=center>
-<img src="http://ozkg680jm.bkt.clouddn.com/mibook.jpg" width=70% height=30%>
+<img src="http://ozkg680jm.bkt.clouddn.com/mibook.jpg">
 </p>
 
 <p align=center>
@@ -80,11 +80,15 @@ assign letter=x     //分配盘符  
 
 [Explorer++](https://explorerplusplus.com/software/explorer++_1.3.5_x64.zip) 
 
-<img src="http://ozkg680jm.bkt.clouddn.com/Explorer++.PNG" width=70% height=30%> 
+<p align=center>
+<img src="http://ozkg680jm.bkt.clouddn.com/Explorer++.PNG"> 
+</p>
 
 [Bootice](http://www.ipauly.com/wp-content/uploads/2015/11/BOOTICEx64_v1.332.rar)
 
-<img src="http://ozkg680jm.bkt.clouddn.com/Bootice.PNG" width=70% height=30%>
+<p align=center>
+<img src="http://ozkg680jm.bkt.clouddn.com/Bootice.PNG">
+</p>
 
 以管理员身份运行Bootice，` UEFI-修改启动序列-添加 `添加四叶草开机引导路径(` X:\EFI\CLOVER\CLOVERX64.efi `) ,上移到第一启动序列.下次开机就能进入四叶草引导了。  
 ### macOS下  
