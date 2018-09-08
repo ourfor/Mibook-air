@@ -25,14 +25,14 @@
 更多信息见[小米官网](https://www.mi.com)
 <!--more-->
 
-> 我笔记本BIOS的版本是` 0705 `，如果你使用这个EFI后遇到笔记本无法休眠，即无故睡死，可以通过dsdt打补丁，也可以刷和我版本相同的BIOS,相关[教程]（http://bbs.xiaomi.cn/t-13643021）
+> 我笔记本BIOS的版本是` 0705 `，如果你使用这个EFI后遇到笔记本无法休眠，即无故睡死，可以通过dsdt打补丁，也可以刷和我版本相同的BIOS,相关<a href=http://bbs.xiaomi.cn/t-13643021><i><b><u>教程</i></b></u></a>
 --- 
 # Screenshot
 <table>
- <th>
- <td><img src=Screenshot/macOS.png></td>
+ <tr>
  <td><img src=Screenshot/bootoption_one.png></td>
- </th>
+ <td><img src=Screenshot/macOS.png></td>
+ </tr>
  <tr>
  <td><img src=Screenshot/bootoption_two.png></td>
  <td><img src=Screenshot/Win10.PNG></td>
