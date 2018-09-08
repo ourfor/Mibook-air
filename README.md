@@ -25,8 +25,17 @@
 更多信息见[小米官网](https://www.mi.com)
 <!--more-->
 
-> 我笔记本BIOS的版本是' 0705 '，如果你使用这个EFI后遇到笔记本无法休眠，即无故睡死，可以通过dsdt打补丁，也可以刷和我版本相同的BIOS,相关[教程]（http://bbs.xiaomi.cn/t-13643021）
- 
+> 我笔记本BIOS的版本是` 0705 `，如果你使用这个EFI后遇到笔记本无法休眠，即无故睡死，可以通过dsdt打补丁，也可以刷和我版本相同的BIOS,相关[教程]（http://bbs.xiaomi.cn/t-13643021）
+--- 
+# Screenshot
+<table>
+ <th>
+ <td><img src=Screenshot/bootoption_one></td>
+ <td><img src=Screenshot/macOS.png></td>
+ <td><img src=Screenshot/Win10.PNG></td>
+ </th>
+ </table>
+
 
 # 关于
 由于最近安装` 10.14 `无法驱动核显，表现为：注入*id=59160000*可以正常识别核显型号，但是相关驱动并未加载，且显存只有` 7M `
