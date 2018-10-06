@@ -445,7 +445,7 @@
 				</data>
 				<key>framebuffer-con2-enable</key>
 				<data>
-				AQAAAA==
+				AAgAAA==
 				</data>
 				<key>framebuffer-con2-index</key>
 				<data>
@@ -456,13 +456,9 @@
 				AACQAA==
 				</data>
 				<key>framebuffer-patch-enable</key>
-				<data>
-				AQAAAA==
-				</data>
+				<integer>1</integer>
 				<key>framebuffer-pipecount</key>
-				<data>
-				AgAAAA==
-				</data>
+				<integer>2</integer>
 				<key>framebuffer-portcount</key>
 				<data>
 				AgAAAA==
@@ -473,7 +469,7 @@
 				</data>
 				<key>framebuffer-unifiedmem</key>
 				<data>
-				AAAAgA==
+				AAAAwA==
 				</data>
 			</dict>
 		</dict>
@@ -529,17 +525,17 @@
 					<key>Disabled</key>
 					<false/>
 					<key>FullTitle</key>
-					<string>Arch</string>
+					<string>Fedora</string>
 					<key>Ignore</key>
 					<false/>
 					<key>Image</key>
-					<string>\EFI\CLOVER\themes\SimpleThemeDark\icons\os_arch.icns</string>
+					<string>\EFI\CLOVER\themes\SimpleThemeDark\icons\os_freebsd.icns</string>
 					<key>Path</key>
-					<string>\EFI\Arch\grub\grubx64.efi</string>
+					<string>\EFI\fedora\shimx.efi</string>
 					<key>Type</key>
 					<string>Linux</string>
 					<key>Volume</key>
-					<string>71F68EBC-8936-45B8-9AFE-B2EBE91DDF95</string>
+					<string>18EF6BAC-8924-462F-80BB-A2DD16003D42</string>
 				</dict>
 				<dict>
 					<key>Disabled</key>
