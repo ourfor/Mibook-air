@@ -81,6 +81,8 @@
 			<string>SSDT-UIAC.aml</string>
 			<string>SSDT-PNLF.aml</string>
 		</array>
+		<key>AutoMerge</key>
+		<true/>
 		<key>DSDT</key>
 		<dict>
 			<key>Debug</key>
@@ -92,8 +94,10 @@
 				<key>#Comment-IRQ Fix</key>
 				<string>The following fixes may be needed for onboard audio/USB/etc</string>
 				<key>AddPNLF</key>
-				<true/>
+				<false/>
 				<key>FixHPET</key>
+				<false/>
+				<key>FixRegions</key>
 				<true/>
 			</dict>
 			<key>Patches</key>
@@ -274,25 +278,15 @@
 		<array>
 			<dict>
 				<key>Signature</key>
-				<string>SSDT</string>
-				<key>TableId</key>
-				<string>xh_rvp10</string>
-			</dict>
-			<dict>
-				<key>Signature</key>
-				<string>#MCFG</string>
-			</dict>
-			<dict>
-				<key>Signature</key>
 				<string>DMAR</string>
 			</dict>
 		</array>
 		<key>FixHeaders</key>
 		<true/>
 		<key>HaltEnabler</key>
-		<true/>
+		<false/>
 		<key>PatchAPIC</key>
-		<true/>
+		<false/>
 		<key>SSDT</key>
 		<dict>
 			<key>DropOem</key>
@@ -310,8 +304,6 @@
 				<key>PluginType</key>
 				<true/>
 			</dict>
-			<key>PluginType</key>
-			<integer>1</integer>
 		</dict>
 		<key>SortedOrder</key>
 		<array>
@@ -322,9 +314,9 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 -igfxbeta igfxfw=1 -igfxdvmtbeta abm_firstpolldelay=10000 arch=x86_64 npci=0x2000 -disablegfxfirmware</string>
+		<string>dart=0 -igfxdump arch=x86_64 -lilubetaall npci=0x2000 -disablegfxfirmware darkwake=8</string>
 		<key>CustomLogo</key>
-		<false/>
+		<string>None</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -350,8 +342,8 @@
 	</dict>
 	<key>CPU</key>
 	<dict>
-		<key>BusSpeedkHz</key>
-		<integer>997600</integer>
+		<key>HWPEnable</key>
+		<true/>
 		<key>UseARTFrequency</key>
 		<true/>
 	</dict>
@@ -416,8 +408,6 @@
 		<dict>
 			<key>#Kaby Lake-Comment</key>
 			<string>To avoid automatic Clover fake device-id (Skylake) injection</string>
-			<key>IntelGFX</key>
-			<string>0x59160000</string>
 		</dict>
 		<key>Properties</key>
 		<dict>
@@ -427,11 +417,11 @@
 				<data>
 				AAAWWQ==
 				</data>
-				<key>device-id</key>
-				<data>
-				FlkAAA==
-				</data>
 				<key>disable-external-gpu</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>enable-hdmi20</key>
 				<data>
 				AQAAAA==
 				</data>
@@ -443,33 +433,17 @@
 				<data>
 				AAgAAA==
 				</data>
-				<key>framebuffer-con2-enable</key>
-				<data>
-				AAgAAA==
-				</data>
-				<key>framebuffer-con2-index</key>
-				<data>
-				/////w==
-				</data>
 				<key>framebuffer-fbmem</key>
 				<data>
 				AACQAA==
 				</data>
 				<key>framebuffer-patch-enable</key>
-				<integer>1</integer>
-				<key>framebuffer-pipecount</key>
-				<integer>2</integer>
-				<key>framebuffer-portcount</key>
 				<data>
-				AgAAAA==
+				AQAAAA==
 				</data>
 				<key>framebuffer-stolenmem</key>
 				<data>
 				AAAwAQ==
-				</data>
-				<key>framebuffer-unifiedmem</key>
-				<data>
-				AAAAwA==
 				</data>
 			</dict>
 		</dict>
@@ -525,17 +499,17 @@
 					<key>Disabled</key>
 					<false/>
 					<key>FullTitle</key>
-					<string>Fedora</string>
+					<string>Arch</string>
 					<key>Ignore</key>
 					<false/>
 					<key>Image</key>
-					<string>\EFI\CLOVER\themes\SimpleThemeDark\icons\os_freebsd.icns</string>
+					<string>\EFI\CLOVER\themes\SimpleThemeDark\icons\os_arch.icns</string>
 					<key>Path</key>
-					<string>\EFI\fedora\shimx.efi</string>
+					<string>\EFI\Arch\grub\grubx64.efi</string>
 					<key>Type</key>
 					<string>Linux</string>
 					<key>Volume</key>
-					<string>18EF6BAC-8924-462F-80BB-A2DD16003D42</string>
+					<string>71F68EBC-8936-45B8-9AFE-B2EBE91DDF95</string>
 				</dict>
 				<dict>
 					<key>Disabled</key>
@@ -589,19 +563,8 @@
 	<dict>
 		<key>EDID</key>
 		<dict>
-			<key>Custom</key>
-			<data>
-			AP///////wAJ5bcGAAAAAAEaAQSlHRF4ChFgq1NHliMYUFQAAAAB
-			AQEBAQEBAQEBAQEBAQEBvDmAGHE4KEAwIDYAJqUQAAAaNi6AGHE4
-			KEAwIDYAJqUQAAAaAAAA/gBCT0UgQ1EKICAgICAgAAAA/gBOVjEz
-			M0ZITS1ONTIKALg=
-			</data>
 			<key>Inject</key>
-			<true/>
-			<key>ProductID</key>
-			<string>1719</string>
-			<key>VendorID</key>
-			<string>2533</string>
+			<false/>
 		</dict>
 		<key>Inject</key>
 		<dict>
@@ -614,10 +577,6 @@
 		</dict>
 		<key>NvidiaSingle</key>
 		<false/>
-		<key>VRAM</key>
-		<integer>2048</integer>
-		<key>ig-platform-id</key>
-		<string>0x59160000</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -655,6 +614,22 @@
 				ILniAAAAkJA=
 				</data>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Disable panic kext logging on 10.14 Release kernel (c) vit9696</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				igKEwHRC
+				</data>
+				<key>MatchOS</key>
+				<string>10.14.x</string>
+				<key>Replace</key>
+				<data>
+				igKEwOtC
+				</data>
+			</dict>
 		</array>
 		<key>KernelXCPM</key>
 		<false/>
@@ -662,7 +637,43 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>change F%uT%04x to F%uTxxxx for AppleBacklightInjector.kext (credit RehabMan)</string>
+				<string>Disable AppleIntelLpssI2C (credit by Coolstar)</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				SU9LaXQ=
+				</data>
+				<key>InfoPlistPatch</key>
+				<true/>
+				<key>Name</key>
+				<string>AppleIntelLpssI2C</string>
+				<key>Replace</key>
+				<data>
+				SU9LaXM=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Disable AppleIntelLpssI2CCOntroller (credit by Coolstar)</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				SU9LaXQ=
+				</data>
+				<key>InfoPlistPatch</key>
+				<true/>
+				<key>Name</key>
+				<string>AppleIntelLpssI2CController</string>
+				<key>Replace</key>
+				<data>
+				SU9LaXM=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>AppleBacklightInjector.kext (credit RehabMan)</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
@@ -680,186 +691,40 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>0x591b0000, 32MB BIOS, 19MB framebuffer 9MB cursor bytes (credit RehabMan)</string>
+				<string>Enable TRIM for SSD</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				AABgAgAAUAE=
+				AEFQUExFIFNTRAA=
 				</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>Name</key>
-				<string>com.apple.driver.AppleIntelKBLGraphicsFramebuffer</string>
+				<string>com.apple.iokit.IOAHCIBlockStorage</string>
 				<key>Replace</key>
 				<data>
-				AAAwAQAAkAA=
+				AAAAAAAAAAAAAAA=
 				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>AppleBacklight Patch</string>
+				<string>disable port limit in XHCI kext (credit PMHeart)</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				RiV1VCUwNHgA
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>Name</key>
-				<string>com.apple.driver.AppleBacklight</string>
-				<key>Replace</key>
-				<data>
-				ABbk8Q==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>0x591b0000, 0105 instead of 0306, HDMI</string>
-				<key>Disabled</key>
-				<true/>
-				<key>Find</key>
-				<data>
-				AgQKAAAIAACHAQAAAwYKAAAEAACHAQAA/wAAAAEAAAAg
-				AAAA
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>Name</key>
-				<string>com.apple.driver.AppleIntelKBLGraphicsFramebuffer</string>
-				<key>Replace</key>
-				<data>
-				AQUKAAAIAACHAQAAAgQKAAAIAACHAQAA/wAAAAEAAAAg
-				AAAA
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>10.13+-第二阶段花屏</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				AQAAdSI=
+				g/sPD4MDBQAA
 				</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>MatchOS</key>
-				<string>10.13.x</string>
-				<key>Name</key>
-				<string>IOGraphicsFamily</string>
-				<key>Replace</key>
-				<data>
-				AQAA6yI=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>10.12+-第二阶段花屏</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				AQAAdSU=
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.12.x</string>
-				<key>Name</key>
-				<string>IOGraphicsFamily</string>
-				<key>Replace</key>
-				<data>
-				AQAA6yU=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>change F%uT%04x to F%uTxxxx for AppleBacklightInjector.kext (credit RehabMan)</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<string>RiV1VCUwNHgA</string>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>Name</key>
-				<string>com.apple.driver.AppleBacklight</string>
-				<key>Replace</key>
-				<string>RiV1VHh4eHgA</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>扩展磁盘图标补丁</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				RXh0ZXJuYWw=
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>Name</key>
-				<string>com.apple.driver.AppleAHCIPort</string>
-				<key>Replace</key>
-				<data>
-				SW50ZXJuYWw=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>usb remove limit(10.13.4)</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				g32UDw+DlwQ=
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.13.4</string>
+				<string>10.14.x</string>
 				<key>Name</key>
 				<string>com.apple.driver.usb.AppleUSBXHCI</string>
 				<key>Replace</key>
 				<data>
-				g32UHw+DlwQ=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>1536MB-&gt;2048MB</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				AAAAYGwFAABsBQAAAAAAAA==
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>Name</key>
-				<string>com.apple.driver.AppleIntelKBLGraphicsFramebuffer</string>
-				<key>Replace</key>
-				<data>
-				AAAAgGwFAABsBQAAAAAAAA==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>外接HDMI显示器补丁</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				AQUJAAAEAACHAQAAAgQKAA==
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>Name</key>
-				<string>com.apple.driver.AppleIntelKBLGraphicsFramebuffer</string>
-				<key>Replace</key>
-				<data>
-				AQUJAAAIAACHAQAAAgQKAA==
+				g/sPkJCQkJCQ
 				</data>
 			</dict>
 		</array>
