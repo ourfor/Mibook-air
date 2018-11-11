@@ -316,7 +316,7 @@
 		<key>Arguments</key>
 		<string>dart=0 -igfxdump arch=x86_64 -lilubetaall npci=0x2000 -disablegfxfirmware darkwake=8</string>
 		<key>CustomLogo</key>
-		<string>None</string>
+		<false/>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -411,11 +411,26 @@
 		</dict>
 		<key>Properties</key>
 		<dict>
+			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
+			<dict>
+				<key>layout-id</key>
+				<data>
+				GwAAAA==
+				</data>
+			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
+				<key>AAPL,GfxYTile</key>
+				<data>
+				AQAAAA==
+				</data>
 				<key>AAPL,ig-platform-id</key>
 				<data>
 				AAAWWQ==
+				</data>
+				<key>device-id</key>
+				<data>
+				FlkAAA==
 				</data>
 				<key>disable-external-gpu</key>
 				<data>
@@ -444,6 +459,10 @@
 				<key>framebuffer-stolenmem</key>
 				<data>
 				AAAwAQ==
+				</data>
+				<key>framebuffer-unifiedmem</key>
+				<data>
+				AAAAgA==
 				</data>
 			</dict>
 		</dict>
@@ -499,17 +518,17 @@
 					<key>Disabled</key>
 					<false/>
 					<key>FullTitle</key>
-					<string>Arch</string>
+					<string>Fedora</string>
 					<key>Ignore</key>
 					<false/>
 					<key>Image</key>
 					<string>\EFI\CLOVER\themes\SimpleThemeDark\icons\os_arch.icns</string>
 					<key>Path</key>
-					<string>\EFI\Arch\grub\grubx64.efi</string>
+					<string>\EFI\fedora\grubx64.efi</string>
 					<key>Type</key>
 					<string>Linux</string>
 					<key>Volume</key>
-					<string>71F68EBC-8936-45B8-9AFE-B2EBE91DDF95</string>
+					<string>18EF6BAC-8924-462F-80BB-A2DD16003D42</string>
 				</dict>
 				<dict>
 					<key>Disabled</key>
@@ -530,7 +549,7 @@
 		<key>Hide</key>
 		<array>
 			<string>Recovery</string>
-			<string>Proboot</string>
+			<string>Preboot</string>
 		</array>
 		<key>Mouse</key>
 		<dict>
@@ -563,8 +582,19 @@
 	<dict>
 		<key>EDID</key>
 		<dict>
+			<key>Custom</key>
+			<data>
+			AP///////wAJ5bcGAAAAAAEaAQSlHRF4ChFgq1NHliMYUFQAAAAB
+			AQEBAQEBAQEBAQEBAQEBvDmAGHE4KEAwIDYAJqUQAAAaNi6AGHE4
+			KEAwIDYAJqUQAAAaAAAA/gBCT0UgQ1EKICAgICAgAAAA/gBOVjEz
+			M0ZITS1ONTIKALg=
+			</data>
 			<key>Inject</key>
-			<false/>
+			<true/>
+			<key>ProductID</key>
+			<string>0x6B7</string>
+			<key>VendorID</key>
+			<string>0x9E5</string>
 		</dict>
 		<key>Inject</key>
 		<dict>
@@ -743,17 +773,17 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>08/08/2017</string>
+		<string>06/26/2018</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP141.88Z.0167.B00.1708080034</string>
+		<string>MBP141.88Z.0178.B00.1806260902</string>
 		<key>Board-ID</key>
 		<string>Mac-B4831CEBD52A0C4C</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02732609GUFF4MFB</string>
+		<string>C02712600GUF64VJC</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -767,7 +797,7 @@
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
-		<string>0xFC0FE136</string>
+		<string>0xFC0FE137</string>
 		<key>FirmwareFeaturesMask</key>
 		<string>0xFF1FFF3F</string>
 		<key>LocationInChassis</key>
@@ -781,7 +811,7 @@
 		<key>ProductName</key>
 		<string>MacBookPro14,1</string>
 		<key>SerialNumber</key>
-		<string>C02V61HSHV29</string>
+		<string>C02TG4J5HV29</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
