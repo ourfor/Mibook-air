@@ -314,7 +314,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 -igfxdump arch=x86_64 -lilubetaall npci=0x2000 -disablegfxfirmware darkwake=8</string>
+		<string>-igfxdump npci=0x2000 dart=0 arch=x86_64 -disablegfxfirmware darkwake=8</string>
 		<key>CustomLogo</key>
 		<false/>
 		<key>Debug</key>
@@ -399,8 +399,6 @@
 		</array>
 		<key>Audio</key>
 		<dict>
-			<key>Inject</key>
-			<integer>27</integer>
 			<key>ResetHDA</key>
 			<true/>
 		</dict>
@@ -476,7 +474,7 @@
 			<true/>
 		</dict>
 		<key>UseIntelHDMI</key>
-		<true/>
+		<false/>
 	</dict>
 	<key>GUI</key>
 	<dict>
