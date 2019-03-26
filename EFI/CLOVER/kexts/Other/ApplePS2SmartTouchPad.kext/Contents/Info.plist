@@ -1308,9 +1308,9 @@
 					<key>4FingerSwipeDownAction</key>
 					<integer>1</integer>
 					<key>4FingerSwipeLeftAction</key>
-					<integer>6</integer>
-					<key>4FingerSwipeRightAction</key>
 					<integer>7</integer>
+					<key>4FingerSwipeRightAction</key>
+					<integer>6</integer>
 					<key>4FingerSwipeUpAction</key>
 					<integer>16</integer>
 					<key>4FingerSwipes</key>
@@ -1370,9 +1370,9 @@
 					<key>1FingerTapAction</key>
 					<integer>35</integer>
 					<key>2FingersTapAction</key>
-					<integer>34</integer>
-					<key>3FingersTapAction</key>
 					<integer>33</integer>
+					<key>3FingersTapAction</key>
+					<integer>34</integer>
 					<key>4FingersTapAction</key>
 					<integer>5</integer>
 					<key>5FingersTapAction</key>
