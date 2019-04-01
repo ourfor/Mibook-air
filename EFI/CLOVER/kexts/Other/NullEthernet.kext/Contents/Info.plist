@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>18A389</string>
+	<string>16C67</string>
 	<key>CFBundleDevelopmentRegion</key>
-	<string>en</string>
+	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>Lilu</string>
+	<string>NullEthernet</string>
+	<key>CFBundleGetInfoString</key>
+	<string>1.0.6, Copyright © 2014 RehabMan. All rights reserved.</string>
 	<key>CFBundleIdentifier</key>
-	<string>as.vit9696.Lilu</string>
+	<string>org.rehabman.driver.NullEthernet</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>Lilu</string>
+	<string>NullEthernet</string>
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.2.7</string>
+	<string>1.0.6</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -25,57 +27,59 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.2.7</string>
+	<string>1.0.6</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>10L201y</string>
+	<string>8C1002</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>18A326e</string>
+	<string>10M2518</string>
 	<key>DTSDKName</key>
-	<string>macosx10.14</string>
+	<string>macosx10.6</string>
 	<key>DTXcode</key>
-	<string>1000</string>
+	<string>0821</string>
 	<key>DTXcodeBuild</key>
-	<string>10L201y</string>
+	<string>8C1002</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>as.vit9696.Lilu</key>
+		<key>NullEthernet</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>as.vit9696.Lilu</string>
+			<string>org.rehabman.driver.NullEthernet</string>
 			<key>IOClass</key>
-			<string>Lilu</string>
-			<key>IOMatchCategory</key>
-			<string>Lilu</string>
+			<string>org_rehabman_NullEthernet</string>
+			<key>IONameMatch</key>
+			<string>NULE0000</string>
 			<key>IOProviderClass</key>
-			<string>IOResources</string>
-			<key>IOResourceMatch</key>
-			<string>IOKit</string>
+			<string>IOACPIPlatformDevice</string>
+			<key>Model</key>
+			<string>NullEthernet</string>
+			<key>Vendor</key>
+			<string>RehabMan</string>
 		</dict>
 	</dict>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2016-2017 vit9696. All rights reserved.</string>
-	<key>OSBundleCompatibleVersion</key>
-	<string>1.2.0</string>
+	<string>Copyright © 2014 RehabMan. All rights reserved.</string>
 	<key>OSBundleLibraries</key>
 	<dict>
+		<key>com.apple.iokit.IOACPIFamily</key>
+		<string>1.0d1</string>
+		<key>com.apple.iokit.IONetworkingFamily</key>
+		<string>1.1.0</string>
 		<key>com.apple.kpi.bsd</key>
-		<string>12.0.0</string>
-		<key>com.apple.kpi.dsep</key>
-		<string>12.0.0</string>
+		<string>8.10.0</string>
 		<key>com.apple.kpi.iokit</key>
-		<string>12.0.0</string>
+		<string>8.10.0</string>
 		<key>com.apple.kpi.libkern</key>
-		<string>12.0.0</string>
+		<string>8.10.0</string>
 		<key>com.apple.kpi.mach</key>
-		<string>12.0.0</string>
-		<key>com.apple.kpi.unsupported</key>
-		<string>12.0.0</string>
+		<string>8.10.0</string>
 	</dict>
 	<key>OSBundleRequired</key>
-	<string>Root</string>
+	<string>Network-Root</string>
+	<key>Source Code</key>
+	<string>https://github.com/RehabMan/OS-X-NullEthernet</string>
 </dict>
 </plist>
