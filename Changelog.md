@@ -1,5 +1,13 @@
 ## 更新日志
 
+# 2019年4月1日
+- 添加自编译` HoRNDIS `,即可通过手机共享网络连接
+- dsdt打补丁,添加虚拟网卡驱动,AppStore可以正常使用
+- 更新clover版本` 4915 `,同步官方仓库最新` applealc `、` whatevergreen ` 、` lilu `
+
+详细[网卡内建](https://github.com/ourfor/Mibook-air/issues/9)
+---
+
 # 2018年7月31日
 - DSDT打补丁，使之能够使用Voodooli2c驱动，使用elan触摸板驱动，替换之前的ApplePS2SmartTouchPad，此驱动会导致Windows重启到OS X下触摸板不可用
 - CPUFriend数据重新生成
