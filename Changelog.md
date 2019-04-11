@@ -7,26 +7,29 @@
 
 详细[网卡内建](https://github.com/ourfor/Mibook-air/issues/9)
 ---
+# 2019年01月24日
+- 删除多余的ssdt，并改用dsdt注入声卡id，声卡完美。
+- 修复声卡无麦克风输入和耳麦输入，并提交合并` AppleALC `
 
-# 2018年7月31日
-- DSDT打补丁，使之能够使用Voodooli2c驱动，使用elan触摸板驱动，替换之前的ApplePS2SmartTouchPad，此驱动会导致Windows重启到OS X下触摸板不可用
-- CPUFriend数据重新生成
-- 更新VoodooPS2Controller.kext，于之前键位有较大改变的是Windows徽键于Alt键位发生交换，之前ApplePS2SmartTouchPad设置的键位，由于VoodooPS2Controller仓库的安装说明里面涉及系统修改，可能导致系统不稳定，所以建议使用键位映射的软件：[karabiner](https://pqrs.org/osx/karabiner/)
-- 删除intel 视频修复的驱动，采用最新的方案Lilu+WhateverGreen，将有利于安装10.14时核显的驱动
-- 鼠标滚动不平滑流畅，可以使用软件[Mos](https://mos.caldis.me/)(此版有个小Bug，详见仓库主页的[issues](https://github.com/Caldis/Mos/issues/95))
+> ` 注意: `点击安装` alc_fix/install双击自动安装.command ` 可以自动切换耳麦和内置
+麦克风
 
-#### 关于触摸板
-- 采用此驱动，三指上划下滑更加流畅，但三指点按查询不可用，只能通过按压触摸板左边的实体键来实现鼠标右键的功能
-- ApplePS2SmartTouchPad与VoodooPS2Controller不可同时使用，否则VoodooPS2Controller将不可用。
+# 2018年11月11日
+- 更新clover
+- 修复开机出现的短暂黑屏
+- 已知休眠后唤醒可能无声(有一定概率复现)
+- usb内建(休眠后USB网卡工作正常)
 
-# 2018年8月7日
-- 更新AppleALC驱动，注入id=27，添加ALCPlugFix，解决睡眠唤醒无声，以及无麦克风输入和噪音比较大的问题。(声卡已经完美)
 
-#### 如何使用ALCPlugFix
-- 在Other目录下的alc_fix目录,然后双击install双击自动安装.command,输入用户密码即可
+# 2018年9月2号
+- 删除两个影响声卡工作的驱动
 
-# 2018年8月12日
-- 之前使用的触摸板驱动不太好用，换回之前的版本，同时设置一些常用的手势
+# 2018年10月7号
+- 增加10.14支持
+- 修改核心显卡显存为3072MB
+- 显示器接口dp->hdmi
+- 暂时可能无法使用hdmi显示器
+
 # 2018年8月16日
 
 - 触控板的问题终于完成的比较好了，虽然仍然存在Windows下面重启到OS X下面无法使用的现象，但是这一版驱动特别适合码字
@@ -68,29 +71,24 @@
 
 由于git似乎没有检测到我的改动，故我将最新的efi保存到服务器：[下载链接](https://file.ourfor.top/tools/Mibook-air.zip)
 
+# 2018年8月12日
+- 之前使用的触摸板驱动不太好用，换回之前的版本，同时设置一些常用的手势
+
+# 2018年8月7日
+- 更新AppleALC驱动，注入id=27，添加ALCPlugFix，解决睡眠唤醒无声，以及无麦克风输入和噪音比较大的问题。(声卡已经完美)
+
+#### 如何使用ALCPlugFix
+- 在Other目录下的alc_fix目录,然后双击install双击自动安装.command,输入用户密码即可
 
 
+# 2018年7月31日
+- DSDT打补丁，使之能够使用Voodooli2c驱动，使用elan触摸板驱动，替换之前的ApplePS2SmartTouchPad，此驱动会导致Windows重启到OS X下触摸板不可用
+- CPUFriend数据重新生成
+- 更新VoodooPS2Controller.kext，于之前键位有较大改变的是Windows徽键于Alt键位发生交换，之前ApplePS2SmartTouchPad设置的键位，由于VoodooPS2Controller仓库的安装说明里面涉及系统修改，可能导致系统不稳定，所以建议使用键位映射的软件：[karabiner](https://pqrs.org/osx/karabiner/)
+- 删除intel 视频修复的驱动，采用最新的方案Lilu+WhateverGreen，将有利于安装10.14时核显的驱动
+- 鼠标滚动不平滑流畅，可以使用软件[Mos](https://mos.caldis.me/)(此版有个小Bug，详见仓库主页的[issues](https://github.com/Caldis/Mos/issues/95))
 
-
-# 2018年9月2号
-- 删除两个影响声卡工作的驱动
-
-# 2018年10月7号
-- 增加10.14支持
-- 修改核心显卡显存为3072MB
-- 显示器接口dp->hdmi
-- 暂时可能无法使用hdmi显示器
+#### 关于触摸板
+- 采用此驱动，三指上划下滑更加流畅，但三指点按查询不可用，只能通过按压触摸板左边的实体键来实现鼠标右键的功能
+- ApplePS2SmartTouchPad与VoodooPS2Controller不可同时使用，否则VoodooPS2Controller将不可用。
    
-# 2018年11月11日
-- 更新clover
-- 修复开机出现的短暂黑屏
-- 已知休眠后唤醒可能无声(有一定概率复现)
-- usb内建(休眠后USB网卡工作正常)
-
-# 2019年01月24日
-- 删除多余的ssdt，并改用dsdt注入声卡id，声卡完美。
-- 修复声卡无麦克风输入和耳麦输入，并提交合并` AppleALC `
-
-> ` 注意: `点击安装` alc_fix/install双击自动安装.command ` 可以自动切换耳麦和内置
-麦克风
-
