@@ -763,10 +763,6 @@
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
 		<string>0x3E7</string>
-		<key>ROM</key>
-		<data>
-		M3RKu+ll
-		</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
@@ -808,8 +804,6 @@
 		<string>0x1A</string>
 		<key>ProductName</key>
 		<string>MacBookPro14,1</string>
-		<key>SerialNumber</key>
-		<string>C02TG4J5HV29</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
@@ -819,8 +813,6 @@
 		<integer>0</integer>
 		<key>BacklightLevel</key>
 		<string>0x10a</string>
-		<key>CustomUUID</key>
-		<string>3C674884-7E23-4A4C-AA1E-2272C3BBE965</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>
