@@ -60,6 +60,8 @@
 
 详见[Changelog](./Changelog.md)
 
+其他问题可以看看本项目的[Wiki](https://github.com/ourfor/Mibook-air/wiki)
+
 ## 如何使用这个EFI
 在[Release](https://github.com/ourfor/mibook-air/releases)下载EFI的打包文件，或者使用` git clone <Repository Address> `clone仓库里面的文件。
 然而并不是` EFI `里面的文件全部放进*ESP分区*，为了保证你的Windows能够被引导启动，请删除我的EFI文件夹里面的` Microsoft `和` Boot `这两个文件夹，之后才是将下载的EFI文件夹与系统的EFI文件夹合并。
