@@ -119,7 +119,7 @@ diskutil mount disksxsx  //diskxsx就是你EFI类型分区的IDENTIFIER
 > EFI/CLOVER/kexts/Other/CoreDisplayFixup.kext
 
 ## Hackintosh安装
-(详见博主[博客](https://ourfor.top))    
+(详见博主[博客](https://blog.ourfor.top))    
 [Releases](https://github.com/ourfor/mibook-air/releases) 
 
 ## 常见问题
