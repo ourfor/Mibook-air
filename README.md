@@ -45,7 +45,7 @@
 
 > 新增Catalina尝鲜
 
-目前[catalina分支](https://github.com/ourfor/Mibook-air/tree/catalina)可以安装Catalina，但是测试版的系统不是很稳定，如果需要安装10.14，请在release页面下载，另外安装建议使用` config_instalca.plist `
+目前[catalina分支](https://github.com/ourfor/Mibook-air/tree/catalina)可以安装Catalina，但是测试版的系统不是很稳定，如果需要安装10.14，请在release页面下载，另外安装使用` config_install.plist `
 
 ---
 
