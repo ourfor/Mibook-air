@@ -148,7 +148,7 @@
 					<key>Comment</key>
 					<string>change EC0 to EC</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					RUMwXw==
@@ -309,16 +309,12 @@
 		<array>
 			<string>SSDT-Disable-DGPU.aml</string>
 			<string>SSDT-HDEF.aml</string>
-			<string>SSDT-UIAC.aml</string>
-			<string>SSDT-USBX.aml</string>
-			<string>SSDT-Ethernet.aml</string>
-			<string>SSDT-ALC255.aml</string>
 		</array>
 	</dict>
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-igfxdump npci=0x2000 dart=0 arch=x86_64 darkwake=8</string>
+		<string>dart=0 -igfxdump arch=x86_64 -lilubetaall npci=0x2000 -disablegfxfirmware darkwake=8</string>
 		<key>CustomLogo</key>
 		<false/>
 		<key>Debug</key>
@@ -403,6 +399,8 @@
 		</array>
 		<key>Audio</key>
 		<dict>
+			<key>Inject</key>
+			<integer>27</integer>
 			<key>ResetHDA</key>
 			<true/>
 		</dict>
@@ -413,26 +411,11 @@
 		</dict>
 		<key>Properties</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
-			<dict>
-				<key>layout-id</key>
-				<data>
-				GwAAAA==
-				</data>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
-				<key>AAPL,GfxYTile</key>
-				<data>
-				AQAAAA==
-				</data>
 				<key>AAPL,ig-platform-id</key>
 				<data>
 				AAAWWQ==
-				</data>
-				<key>device-id</key>
-				<data>
-				FlkAAA==
 				</data>
 				<key>disable-external-gpu</key>
 				<data>
@@ -462,10 +445,6 @@
 				<data>
 				AAAwAQ==
 				</data>
-				<key>framebuffer-unifiedmem</key>
-				<data>
-				AAAAgA==
-				</data>
 			</dict>
 		</dict>
 		<key>USB</key>
@@ -478,7 +457,7 @@
 			<true/>
 		</dict>
 		<key>UseIntelHDMI</key>
-		<false/>
+		<true/>
 	</dict>
 	<key>GUI</key>
 	<dict>
@@ -514,7 +493,23 @@
 					<key>Type</key>
 					<string>OSX</string>
 					<key>Volume</key>
-					<string>AA832F30-233E-478C-884E-7C790EF53018</string>
+					<string>3FF6C7E9-6186-4B63-A4FF-6DCAFF7F05A5</string>
+				</dict>
+				<dict>
+					<key>Disabled</key>
+					<false/>
+					<key>FullTitle</key>
+					<string>Fedora</string>
+					<key>Ignore</key>
+					<false/>
+					<key>Image</key>
+					<string>\EFI\CLOVER\themes\SimpleThemeDark\icons\os_arch.icns</string>
+					<key>Path</key>
+					<string>\EFI\fedora\grubx64.efi</string>
+					<key>Type</key>
+					<string>Linux</string>
+					<key>Volume</key>
+					<string>18EF6BAC-8924-462F-80BB-A2DD16003D42</string>
 				</dict>
 				<dict>
 					<key>Disabled</key>
@@ -535,7 +530,7 @@
 		<key>Hide</key>
 		<array>
 			<string>Recovery</string>
-			<string>Preboot</string>
+			<string>Proboot</string>
 		</array>
 		<key>Mouse</key>
 		<dict>
@@ -646,20 +641,6 @@
 				igKEwOtC
 				</data>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Disable panic kext logging on 10.15.4 Release kernel</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				AIoChMB0
-				</data>
-				<key>Replace</key>
-				<data>
-				AIoChMDr
-				</data>
-			</dict>
 		</array>
 		<key>KernelXCPM</key>
 		<false/>
@@ -757,24 +738,6 @@
 				g/sPkJCQkJCQ
 				</data>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Disable minStolenSize less or equal fStolenMemorySize assertion, 10.14 Credits (Sniki)</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				dkZI/wU=
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>Name</key>
-				<string>com.apple.driver.AppleIntelKBLGraphicsFramebuffer</string>
-				<key>Replace</key>
-				<data>
-				60ZI/wU=
-				</data>
-			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
@@ -795,13 +758,13 @@
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP141.88Z.0178.B00.1806260902</string>
+		<string>MBP152.88Z.0178.B00.1806260902</string>
 		<key>Board-ID</key>
-		<string>Mac-B4831CEBD52A0C4C</string>
+		<string>Mac-827FB448E656EC26</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02712600GUF64VJC</string>
+		<string>C02806104GUF64WJC</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -827,7 +790,7 @@
 		<key>PlatformFeature</key>
 		<string>0x1A</string>
 		<key>ProductName</key>
-		<string>MacBookPro14,1</string>
+		<string>MacBookPro15,2</string>
 		<key>SerialNumber</key>
 		<string>C02TG4J5HV29</string>
 		<key>Version</key>
