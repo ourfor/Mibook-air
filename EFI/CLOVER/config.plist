@@ -327,6 +327,8 @@
 		<string>Macintosh</string>
 		<key>DisableCloverHotkeys</key>
 		<true/>
+		<key>Fast</key>
+		<true/>
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>Log</key>
@@ -339,8 +341,6 @@
 		<true/>
 		<key>Secure</key>
 		<false/>
-		<key>Timeout</key>
-		<integer>5</integer>
 		<key>XMPDetection</key>
 		<false/>
 	</dict>
@@ -783,6 +783,10 @@
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
 		<string>0x3E7</string>
+		<key>ROM</key>
+		<data>
+		M3RKu+ll
+		</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
@@ -835,6 +839,8 @@
 		<integer>0</integer>
 		<key>BacklightLevel</key>
 		<string>0x10a</string>
+		<key>CustomUUID</key>
+		<string>2A2C441D-A590-5CFB-9578-4C3E6AF0F68B</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>
