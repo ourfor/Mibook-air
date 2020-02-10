@@ -1,5 +1,5 @@
 <p align=center>
-<img src="doc/images/mibook-air.jpg">
+<img src="https://cdn.jsdelivr.net/gh/ourfor/mibook-air@v14/doc/images/mibook-air.jpg">
 </p>
 
 <p align=center>
@@ -30,12 +30,12 @@
 # Screenshot
 <table>
  <tr>
- <td><img src="doc/images/bootoption_one.png"></td>
- <td><img src="doc/images/macOS.png"></td>
+ <td><img src="https://cdn.jsdelivr.net/gh/ourfor/mibook-air@v14/doc/images/bootoption_one.png"></td>
+ <td><img src="https://cdn.jsdelivr.net/gh/ourfor/mibook-air@v14/doc/images/macOS.png"></td>
  </tr>
  <tr>
- <td><img src="doc/images/bootoption_two.png"></td>
- <td><img src="doc/images/Win10.png"></td>
+ <td><img src="https://cdn.jsdelivr.net/gh/ourfor/mibook-air@v14/doc/images/bootoption_two.png"></td>
+ <td><img src="https://cdn.jsdelivr.net/gh/ourfor/mibook-air@v14/doc/images/Win10.png"></td>
  </tr>
 
  </table>
@@ -56,7 +56,7 @@
 - 功耗优化、驱动精简以及同步更新最新驱动等
 - 完善相关硬件的驱动或者缺陷
 
-![about System](doc/images/system.png)
+![about System](https://cdn.jsdelivr.net/gh/ourfor/mibook-air@v14/doc/images/system.png)
 
 目前已知问题：
 - 蓝牙鼠标无法正常使用，其它蓝牙设备可以正常使用
@@ -74,8 +74,8 @@
 <p>
     <table>
     <tr>
-        <td><img src="doc/images/pay_alipay.png" alt="支付宝支付二维码" /></td>
-        <td><img src="doc/images/pay_wechat.png" alt="微信支付二维吗" /></td>
+        <td><img src="https://cdn.jsdelivr.net/gh/ourfor/mibook-air@v14/doc/images/pay_alipay.png" alt="支付宝支付二维码" /></td>
+        <td><img src="https://cdn.jsdelivr.net/gh/ourfor/mibook-air@v14/doc/images/pay_wechat.png" alt="微信支付二维吗" /></td>
     </tr>
     </table>
 </p>
