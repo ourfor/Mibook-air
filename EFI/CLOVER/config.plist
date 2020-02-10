@@ -318,7 +318,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-igfxdump npci=0x2000 dart=0 arch=x86_64 darkwake=8</string>
+		<string>-igfxdump npci=0x2000 dart=0 arch=x86_64 darkwake=8 kext-dev-mode=1</string>
 		<key>CustomLogo</key>
 		<false/>
 		<key>Debug</key>
@@ -340,7 +340,7 @@
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>3</integer>
+		<integer>5</integer>
 		<key>XMPDetection</key>
 		<false/>
 	</dict>
@@ -562,7 +562,7 @@
 		<key>ShowOptimus</key>
 		<true/>
 		<key>Theme</key>
-		<string>random</string>
+		<string>SimpleThemeDark</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -783,10 +783,6 @@
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
 		<string>0x3E7</string>
-		<key>ROM</key>
-		<data>
-		M3RKu+ll
-		</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
@@ -839,8 +835,6 @@
 		<integer>0</integer>
 		<key>BacklightLevel</key>
 		<string>0x10a</string>
-		<key>CustomUUID</key>
-		<string>2A2C441D-A590-5CFB-9578-4C3E6AF0F68B</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>
