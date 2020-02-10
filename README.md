@@ -1,5 +1,5 @@
 <p align=center>
-<img src="https://ws1.sinaimg.cn/large/005GQrpLly1fyuh7rhs97j30fk0fkwih.jpg">
+<img src="doc/images/mibook-air.jpg">
 </p>
 
 <p align=center>
@@ -14,8 +14,8 @@
 --- 
 
 
-# Clover配置文件
-## 这个仓库用来更新小米笔记本Air i7 7500U(指纹版)clover的配置文件
+# 配置文件
+> 这个仓库用来更新小米笔记本Air i7 7500U(指纹版) 引导配置文件
 # 小米笔记本Air-i7-7500U 详细配置:
 
 |CPU|GPU|内存|SSD|无线网卡|声卡|分辨率|
@@ -30,12 +30,12 @@
 # Screenshot
 <table>
  <tr>
- <td><img src=Screenshot/bootoption_one.png></td>
- <td><img src=Screenshot/macOS.png></td>
+ <td><img src="doc/images/bootoption_one.png"></td>
+ <td><img src="doc/images/macOS.png"></td>
  </tr>
  <tr>
- <td><img src=Screenshot/bootoption_two.png></td>
- <td><img src=Screenshot/Win10.PNG></td>
+ <td><img src="doc/images/bootoption_two.png"></td>
+ <td><img src="doc/images/Win10.png"></td>
  </tr>
 
  </table>
@@ -43,9 +43,9 @@
 
 # 关于
 
-> 新增Catalina尝鲜
+> Clover最后一版更新，开始使用OpenCore引导
 
-目前[catalina分支](https://github.com/ourfor/Mibook-air/tree/catalina)可以安装Catalina，但是测试版的系统不是很稳定，如果需要安装10.14，请在release页面下载，另外安装使用` config_install.plist `
+正在适配OpenCore, OpenCore功能更加强大，更加接近白苹果，配置也更加简洁，当然难度也不小。
 
 ---
 
@@ -56,10 +56,10 @@
 - 功耗优化、驱动精简以及同步更新最新驱动等
 - 完善相关硬件的驱动或者缺陷
 
-![about System](https://ws1.sinaimg.cn/large/005GQrpLgy1g1yl2ffts7j312s0puama.jpg)
+![about System](doc/images/system.png)
 
 目前已知问题：
-- 蓝牙无法正常使用
+- 蓝牙鼠标无法正常使用，其它蓝牙设备可以正常使用
 - WiFi目前无解，国外大佬的IntelWifi项目进展迅速，目前已经能够在` 系统偏好设置-网络-Wi-Fi中扫描到WIFI信号了 ` 相关项目地址：[IntelWifi](https://github.com/rpeshkov/IntelWifi)和[black80211](https://github.com/rpeshkov/black80211)
 
 ## Changelog
@@ -67,6 +67,18 @@
 详见[Changelog](./Changelog.md)
 
 其他问题可以看看本项目的[Wiki](https://github.com/ourfor/Mibook-air/wiki)
+
+# 捐赠
+仓库维护不易，如果这个EFI确实有帮到过您，又或者您有捐赠的意图，欢迎通过下面👇的二维码进行捐赠，注意填写备注。
+
+<p>
+    <table>
+    <tr>
+        <td><img src="doc/images/pay_alipay.png" alt="支付宝支付二维码" /></td>
+        <td><img src="doc/images/pay_wechat.png" alt="微信支付二维吗" /></td>
+    </tr>
+    </table>
+</p>
 
 ## 如何使用这个EFI
 在[Release](https://github.com/ourfor/mibook-air/releases)下载EFI的打包文件，或者使用` git clone <Repository Address> `clone仓库里面的文件。
@@ -91,17 +103,11 @@ assign letter=x     //分配盘符  
 
 [Explorer++](https://explorerplusplus.com/software/explorer++_1.3.5_x64.zip) 
 
-<p align=center>
-<img src="https://ws1.sinaimg.cn/large/005GQrpLly1fyuhbcvolmj31er0odjt6.jpg"> 
-</p>
-
 [Bootice](http://www.ipauly.com/wp-content/uploads/2015/11/BOOTICEx64_v1.332.rar)
 
-<p align=center>
-<img src="https://ws1.sinaimg.cn/large/005GQrpLly1fyuh9tnnt3j30hv08gglq.jpg">
-</p>
 
 以管理员身份运行Bootice，` UEFI-修改启动序列-添加 `添加四叶草开机引导路径(` X:\EFI\CLOVER\CLOVERX64.efi `) ,上移到第一启动序列.下次开机就能进入四叶草引导了。  
+
 ### macOS下  
 ```bash
 diskutil list
