@@ -266,7 +266,7 @@
 			<key>NormalizeHeaders</key>
 			<false/>
 			<key>RebaseRegions</key>
-			<false/>
+			<true/>
 			<key>ResetHwSig</key>
 			<false/>
 			<key>ResetLogoStatus</key>
@@ -328,12 +328,146 @@
 	<dict>
 		<key>Add</key>
 		<dict>
+			<key>PciRoot(0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,0,0</string>
+				<key>device_type</key>
+				<string>Host bridge</string>
+				<key>model</key>
+				<string>Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,20,0</string>
+				<key>device_type</key>
+				<string>USB controller</string>
+				<key>model</key>
+				<string>Sunrise Point-LP USB 3.0 xHCI Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x15,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,21,0</string>
+				<key>device_type</key>
+				<string>Signal processing controller</string>
+				<key>model</key>
+				<string>Sunrise Point-LP Serial IO I2C Controller #0</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x15,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,21,1</string>
+				<key>device_type</key>
+				<string>Signal processing controller</string>
+				<key>model</key>
+				<string>Sunrise Point-LP Serial IO I2C Controller #1</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x16,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,22,0</string>
+				<key>device_type</key>
+				<string>Communication controller</string>
+				<key>model</key>
+				<string>Sunrise Point-LP CSME HECI #1</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x17,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,23,0</string>
+				<key>device_type</key>
+				<string>SATA controller</string>
+				<key>model</key>
+				<string>Sunrise Point-LP SATA Controller [AHCI mode]</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1c,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,28,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>Sunrise Point-LP PCI Express Root Port #1</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1c,0x4)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,28,4</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>Sunrise Point-LP PCI Express Root Port #5</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1c,0x4)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,28,4/0,0</string>
+				<key>device_type</key>
+				<string>Network controller</string>
+				<key>model</key>
+				<string>Wireless 8265 / 8275</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1d,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,29,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>Sunrise Point-LP PCI Express Root Port #9</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1d,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,29,0/0,0</string>
+				<key>device_type</key>
+				<string>Non-Volatile memory controller</string>
+				<key>model</key>
+				<string>NVMe SSD Controller SM961/PM961</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1f,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,0</string>
+				<key>device_type</key>
+				<string>ISA bridge</string>
+				<key>model</key>
+				<string>Sunrise Point LPC Controller/eSPI Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1f,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,2</string>
+				<key>device_type</key>
+				<string>Memory controller</string>
+				<key>model</key>
+				<string>Sunrise Point-LP PMC</string>
+			</dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,3</string>
+				<key>device_type</key>
+				<string>Audio device</string>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
 				<key>layout-id</key>
 				<data>
-				GwAAAA==
+				YwAAAA==
 				</data>
+				<key>model</key>
+				<string>Sunrise Point-LP HD Audio</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1f,0x4)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,4</string>
+				<key>device_type</key>
+				<string>SMBus</string>
+				<key>model</key>
+				<string>Sunrise Point-LP SMBus</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
@@ -668,7 +802,7 @@
 			<key>HideSelf</key>
 			<true/>
 			<key>PollAppleHotKeys</key>
-			<false/>
+			<true/>
 			<key>Resolution</key>
 			<string></string>
 			<key>ShowPicker</key>
@@ -709,9 +843,9 @@
 		<key>Security</key>
 		<dict>
 			<key>AllowNvramReset</key>
-			<false/>
+			<true/>
 			<key>AllowSetDefault</key>
-			<false/>
+			<true/>
 			<key>AuthRestart</key>
 			<false/>
 			<key>ExposeSensitiveData</key>
@@ -747,9 +881,21 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Name</key>
-				<string>memcheck</string>
+				<string>VerifyMsrE2</string>
 				<key>Path</key>
 				<string>VerifyMsrE2.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string>Modifed GRUB Shell</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Name</key>
+				<string>Modifed GRUB Shell</string>
+				<key>Path</key>
+				<string>modGRUBShell.efi</string>
 			</dict>
 		</array>
 	</dict>
@@ -767,14 +913,10 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>keepsyms=1 -igfxdump nv_disable=1 dart=0 npci=0x2000 darkwake=8</string>
+				<string>-v keepsyms=1 -igfxdump nv_disable=1 dart=0 npci=0x2000 darkwake=8</string>
 				<key>csr-active-config</key>
 				<data>
 				AAAAAA==
-				</data>
-				<key>nvda_drv</key>
-				<data>
-				MQ==
 				</data>
 				<key>prev-lang:kbd</key>
 				<data>
@@ -878,11 +1020,11 @@
 			<key>KeySupportMode</key>
 			<string>Auto</string>
 			<key>KeySwap</key>
-			<false/>
+			<true/>
 			<key>PointerSupport</key>
 			<false/>
 			<key>PointerSupportMode</key>
-			<string>ASUS</string>
+			<string></string>
 			<key>TimerResolution</key>
 			<integer>50000</integer>
 		</dict>
@@ -897,7 +1039,7 @@
 			<key>AppleKeyMap</key>
 			<false/>
 			<key>AppleSmcIo</key>
-			<false/>
+			<true/>
 			<key>AppleUserInterfaceTheme</key>
 			<false/>
 			<key>ConsoleControl</key>
@@ -926,7 +1068,7 @@
 			<key>IgnoreInvalidFlexRatio</key>
 			<false/>
 			<key>IgnoreTextInGraphics</key>
-			<false/>
+			<true/>
 			<key>ProvideConsoleGop</key>
 			<true/>
 			<key>ReconnectOnResChange</key>
