@@ -38,6 +38,14 @@
 				<key>Path</key>
 				<string>SSDT-PLUG.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Brightness Key</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-BrightFN.aml</string>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array>
@@ -102,6 +110,74 @@
 				<key>Replace</key>
 				<data>
 				RUNfXw==
+				</data>
+				<key>ReplaceMask</key>
+				<data>
+				</data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>_Q1C to XQ1C(Mibook-air)</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>
+				X1ExQw==
+				</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data>
+				</data>
+				<key>OemTableId</key>
+				<data>
+				</data>
+				<key>Replace</key>
+				<data>
+				WFExQw==
+				</data>
+				<key>ReplaceMask</key>
+				<data>
+				</data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>_Q1D to XQ1D(Mibook-air)</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>
+				X1ExRA==
+				</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data>
+				</data>
+				<key>OemTableId</key>
+				<data>
+				</data>
+				<key>Replace</key>
+				<data>
+				WFExRA==
 				</data>
 				<key>ReplaceMask</key>
 				<data>
