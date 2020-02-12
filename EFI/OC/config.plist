@@ -24,27 +24,19 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>UIAC</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-UIAC.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>XOSI</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-XOSI.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>Disable Nvidia GPU </string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
 				<string>SSDT-Disable-DGPU.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>CPU Native Power Manage</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-PLUG.aml</string>
 			</dict>
 		</array>
 		<key>Block</key>
@@ -122,147 +114,11 @@
 				<data>
 				</data>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>change HDAS to HDEF</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				SERBUw==
-				</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data>
-				</data>
-				<key>OemTableId</key>
-				<data>
-				</data>
-				<key>Replace</key>
-				<data>
-				SERFRg==
-				</data>
-				<key>ReplaceMask</key>
-				<data>
-				</data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data>
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>change HECI to IMEI</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				SEVDSQ==
-				</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data>
-				</data>
-				<key>OemTableId</key>
-				<data>
-				</data>
-				<key>Replace</key>
-				<data>
-				SU1FSQ==
-				</data>
-				<key>ReplaceMask</key>
-				<data>
-				</data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data>
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>change MEI to IMEI</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				TUVJXw==
-				</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data>
-				</data>
-				<key>OemTableId</key>
-				<data>
-				</data>
-				<key>Replace</key>
-				<data>
-				SU1FSQ==
-				</data>
-				<key>ReplaceMask</key>
-				<data>
-				</data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data>
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>change GFX0 to IGPU</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				R0ZYMA==
-				</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data>
-				</data>
-				<key>OemTableId</key>
-				<data>
-				</data>
-				<key>Replace</key>
-				<data>
-				SUdQVQ==
-				</data>
-				<key>ReplaceMask</key>
-				<data>
-				</data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data>
-				</data>
-			</dict>
 		</array>
 		<key>Quirks</key>
 		<dict>
 			<key>FadtEnableReset</key>
-			<false/>
+			<true/>
 			<key>NormalizeHeaders</key>
 			<false/>
 			<key>RebaseRegions</key>
@@ -315,7 +171,7 @@
 			<key>ProtectCsmRegion</key>
 			<false/>
 			<key>ProvideCustomSlide</key>
-			<true/>
+			<false/>
 			<key>SetupVirtualMap</key>
 			<true/>
 			<key>ShrinkMemoryMap</key>
@@ -595,13 +451,13 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>VoodooPS2Controller.kext</string>
+				<string>VoodooI2C.kext</string>
 				<key>Comment</key>
 				<string>PS2 KeyBoard</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VoodooPS2Controller</string>
+				<string>Contents/MacOS/VoodooI2C</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -611,13 +467,45 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>VoodooPS2Controller.kext/Contents/Plugins/VoodooPS2Keyboard.kext</string>
+				<string>VoodooI2C.kext/Contents/Plugins/VoodooGPIO.kext</string>
 				<key>Comment</key>
-				<string>PS2 KeyBoard </string>
+				<string>VoodooI2C Plugin</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VoodooPS2Keyboard</string>
+				<string>Contents/MacOS/VoodooGPIO</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>VoodooI2C.kext/Contents/Plugins/VoodooI2CServices.kext</string>
+				<key>Comment</key>
+				<string>VoodooI2C Plugin</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/VoodooI2CServices</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>VoodooI2CHID.kext</string>
+				<key>Comment</key>
+				<string>TouchPad</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/VoodooI2CHID</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -689,6 +577,38 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>VoodooPS2Controller.kext</string>
+				<key>Comment</key>
+				<string>PS2 KeyBoard</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/VoodooPS2Controller</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>VoodooPS2Controller.kext/Contents/Plugins/VoodooPS2Keyboard.kext</string>
+				<key>Comment</key>
+				<string>PS2 KeyBoard </string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/VoodooPS2Keyboard</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array>
@@ -715,48 +635,13 @@
 			</data>
 		</dict>
 		<key>Patch</key>
-		<array>
-			<dict>
-				<key>Base</key>
-				<string></string>
-				<key>Comment</key>
-				<string>Disable minStolenSize less or equal fStolenMemorySize assertion, 10.14 Credits (Sniki)</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				dkZI/wU=
-				</data>
-				<key>Identifier</key>
-				<string>com.apple.driver.AppleIntelKBLGraphicsFramebuffer</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data>
-				</data>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>Replace</key>
-				<data>
-				60ZI/wU=
-				</data>
-				<key>ReplaceMask</key>
-				<data>
-				</data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-		</array>
+		<array/>
 		<key>Quirks</key>
 		<dict>
 			<key>AppleCpuPmCfgLock</key>
-			<true/>
+			<false/>
 			<key>AppleXcpmCfgLock</key>
-			<true/>
+			<false/>
 			<key>AppleXcpmExtraMsrs</key>
 			<false/>
 			<key>AppleXcpmForceBoost</key>
@@ -865,37 +750,25 @@
 				<key>Arguments</key>
 				<string></string>
 				<key>Comment</key>
-				<string>Not signed for security reasons</string>
+				<string>RU</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Name</key>
-				<string>Clean Nvram</string>
+				<string>RU</string>
 				<key>Path</key>
-				<string>CleanNvram.efi</string>
+				<string>RU.efi</string>
 			</dict>
 			<dict>
 				<key>Arguments</key>
 				<string></string>
 				<key>Comment</key>
-				<string>Check CFG Locker</string>
+				<string>Shell 64</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Name</key>
-				<string>VerifyMsrE2</string>
+				<string>Shell 64</string>
 				<key>Path</key>
-				<string>VerifyMsrE2.efi</string>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Comment</key>
-				<string>Modifed GRUB Shell</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Name</key>
-				<string>Modifed GRUB Shell</string>
-				<key>Path</key>
-				<string>modGRUBShell.efi</string>
+				<string>Shell64.efi</string>
 			</dict>
 		</array>
 	</dict>
@@ -916,7 +789,7 @@
 				<string>-v keepsyms=1 -igfxdump nv_disable=1 dart=0 npci=0x2000 darkwake=8</string>
 				<key>csr-active-config</key>
 				<data>
-				AAAAAA==
+				MAAAAA==
 				</data>
 				<key>prev-lang:kbd</key>
 				<data>
