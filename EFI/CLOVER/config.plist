@@ -104,100 +104,44 @@
 			<array>
 				<dict>
 					<key>Comment</key>
-					<string>change EC0 to EC</string>
+					<string>_Q1C to XQ1C(Mibook-air)</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>
-					RUMwXw==
+					X1ExQw==
 					</data>
 					<key>Replace</key>
 					<data>
-					RUNfXw==
+					WFExQw==
 					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change HDAS to HDEF</string>
+					<string>_Q1D to XQ1D(Mibook-air)</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>
-					SERBUw==
+					X1ExRA==
 					</data>
 					<key>Replace</key>
 					<data>
-					SERFRg==
+					WFExRA==
 					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change HECI to IMEI</string>
+					<string>_OSI to XOSI</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>
-					SEVDSQ==
+					X09TSQ==
 					</data>
 					<key>Replace</key>
 					<data>
-					SU1FSQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change MEI to IMEI</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					TUVJXw==
-					</data>
-					<key>Replace</key>
-					<data>
-					SU1FSQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change GFX0 to IGPU</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					R0ZYMA==
-					</data>
-					<key>Replace</key>
-					<data>
-					SUdQVQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change PCI0.VID to IGPU #1 (Thinkpad)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					UENJMFZJRF8=
-					</data>
-					<key>Replace</key>
-					<data>
-					UENJMElHUFU=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change PCI0.VID to IGPU #2 (Thinkpad)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					VklEXwhfQURSDAAAAgA=
-					</data>
-					<key>Replace</key>
-					<data>
-					SUdQVQhfQURSDAAAAgA=
+					WE9TSQ==
 					</data>
 				</dict>
 			</array>
@@ -237,12 +181,13 @@
 		</dict>
 		<key>SortedOrder</key>
 		<array>
+			<string>SSDT-XOSI.aml</string>
+			<string>SSDT-EC.aml</string>
+			<string>SSDT-PNLF.aml</string>
 			<string>SSDT-Disable-DGPU.aml</string>
-			<string>SSDT-HDEF.aml</string>
 			<string>SSDT-UIAC.aml</string>
-			<string>SSDT-USBX.aml</string>
 			<string>SSDT-Ethernet.aml</string>
-			<string>SSDT-ALC255.aml</string>
+			<string>SSDT-BrightFN.aml</string>
 		</array>
 	</dict>
 	<key>Boot</key>
@@ -347,7 +292,7 @@
 			<dict>
 				<key>layout-id</key>
 				<data>
-				GwAAAA==
+				YwAAAA==
 				</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
