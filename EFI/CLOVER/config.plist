@@ -144,6 +144,42 @@
 					WE9TSQ==
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>_STA to XSTA(GPI0)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1NUQQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFNUQQ==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					R1BJMA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>_STA to XSTA(TPD0)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1NUQQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFNUQQ==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					VFBEMA==
+					</data>
+				</dict>
 			</array>
 			<key>ReuseFFFF</key>
 			<false/>
@@ -188,6 +224,8 @@
 			<string>SSDT-UIAC.aml</string>
 			<string>SSDT-Ethernet.aml</string>
 			<string>SSDT-BrightFN.aml</string>
+			<string>SSDT-GPI0.aml</string>
+			<string>SSDT-TPDX.aml</string>
 		</array>
 	</dict>
 	<key>Boot</key>
