@@ -144,6 +144,78 @@
 					WE9TSQ==
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>_PRW to XPRW</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1BSVw==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFBSVw==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					R0xBTg==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>_PRW to XPRW</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1BSVw==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFBSVw==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					WERDSQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>_PRW to XPRW</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1BSVw==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFBSVw==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					SERBUw==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>_PRW to XPRW</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1BSVw==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFBSVw==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					WEhDXw==
+					</data>
+				</dict>
 			</array>
 			<key>ReuseFFFF</key>
 			<false/>
@@ -190,12 +262,13 @@
 			<string>SSDT-BrightFN.aml</string>
 			<string>SSDT-GPI0.aml</string>
 			<string>SSDT-TPDX.aml</string>
+			<string>SSDT-DEVICES.aml</string>
 		</array>
 	</dict>
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-igfxdump npci=0x2000 dart=0 arch=x86_64 darkwake=8 kext-dev-mode=1</string>
+		<string>-igfxdump npci=0x2000 dart=0 arch=x86_64 darkwake=8</string>
 		<key>CustomLogo</key>
 		<false/>
 		<key>Debug</key>
@@ -432,7 +505,7 @@
 			<key>Linux</key>
 			<true/>
 			<key>Tool</key>
-			<false/>
+			<true/>
 		</dict>
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
